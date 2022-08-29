@@ -27,7 +27,7 @@ block content
     include mixins/header.pug
     +header({
         pageHeaderBg: 'bg-img-cover overlay overlay-light overlay-80',
-        pageHeaderBgImg: 'background-image: url("https://source.unsplash.com/R-LK3sqLiBw/1600x1200")',
+        pageHeaderBgImg: 'background-image: url("/assets/img/frossarbo17/outside4.jpg.webp")',
         pageHeaderStyle: 'page-header-ui-light',
         svgBorderAngled: false,
         svgBorderRounded: true,
@@ -55,48 +55,44 @@ block content
         svgBorderWaves: false,
         svgBorderFill: ''
     })
+        //- List of images, with title translation string and name of image file.
+        - 
+          var images_col1 = [ ["outside4", "outside4.jpg.webp"],
+              ["outside4", "outside4.jpg.webp"],
+          ]
+
+        - 
+          var images_col2 = [ ["outside4", "outside4.jpg.webp"],
+              ["outside4", "outside4.jpg.webp"],
+          ]
+
+        - 
+          var images_col3 = [ ["outside4", "outside4.jpg.webp"],
+              ["outside4",  "outside4.jpg.webp"],
+          ]
 
         .container.px-5
             .row.gx-5
                 .col-md-4
-                    a.card.card-portfolio.mb-5(href='#!')
-                        img.card-img-top(src='https://source.unsplash.com/jWQj5Wjepuk/400x300', alt='...')
-                        .card-body
-                            .card-title Book
-                    a.card.card-portfolio.mb-5(href='#!')
-                        img.card-img-top(src='https://source.unsplash.com/Ecnx13MEPK0/400x500', alt='...')
-                        .card-body
-                            .card-title Flower Mug
-                    a.card.card-portfolio.mb-5.mb-md-0(href='#!')
-                        img.card-img-top(src='https://source.unsplash.com/eUCy1jb_B7I/400x400', alt='...')
-                        .card-body
-                            .card-title Cactus Display
+                    - for (var i = 0; i < images_col1.length; i++) 
+                        .card.card-portfolio.mb-5
+                            img.card-img-top(src='/assets/img/frossarbo17/' + images_col1[i][1] , alt='...')
+                            .card-body
+                                .card-title.i18nelement(data-i18n='frossarbo17.images.' + images_col1[i][0] + "-title") 
+                    
                 .col-md-4
-                    a.card.card-portfolio.mb-5(href='#!')
-                        img.card-img-top(src='https://source.unsplash.com/cuTcfqsES6o/400x500', alt='...')
-                        .card-body
-                            .card-title Reading
-                    a.card.card-portfolio.mb-5(href='#!')
-                        img.card-img-top(src='https://source.unsplash.com/jipR1oTCO7U/400x400', alt='...')
-                        .card-body
-                            .card-title White Book
-                    a.card.card-portfolio.mb-5.mb-md-0(href='#!')
-                        img.card-img-top(src='https://source.unsplash.com/n3sqjJzZiBM/400x300', alt='...')
-                        .card-body
-                            .card-title Photo Face
+                    - for (var i = 0; i < images_col2.length; i++) 
+                        .card.card-portfolio.mb-5
+                            img.card-img-top(src='/assets/img/frossarbo17/' + images_col2[i][1] , alt='...')
+                            .card-body
+                                .card-title.i18nelement(data-i18n='frossarbo17.images.' + images_col2[i][0] + "-title") 
+
                 .col-md-4
-                    a.card.card-portfolio.mb-5(href='#!')
-                        img.card-img-top(src='https://source.unsplash.com/Zr7MxECDTQ8/400x300', alt='...')
-                        .card-body
-                            .card-title Catalog
-                    a.card.card-portfolio.mb-5(href='#!')
-                        img.card-img-top(src='https://source.unsplash.com/QcyenJDqDzw/400x500', alt='...')
-                        .card-body
-                            .card-title Notebook
-                    a.card.card-portfolio.mb-5.mb-md-0(href='#!')
-                        img.card-img-top(src='https://source.unsplash.com/TIutDBFEtcY/400x400', alt='...')
-                        .card-body
-                            .card-title Book Stand
+                    - for (var i = 0; i < images_col3.length; i++) 
+                        .card.card-portfolio.mb-5
+                            img.card-img-top(src='/assets/img/frossarbo17/' + images_col3[i][1] , alt='...')
+                            .card-body
+                                .card-title.i18nelement(data-i18n='frossarbo17.images.' + images_col3[i][0] + "-title") 
 
     //- * * * * * * * * * * * * * * * *
     //- * * Contact Button Section  * *

@@ -30,7 +30,10 @@
     "frossarbo17": {
         "title": "Frossarbo 17",
         "description": "Our nature paradise at the end of the road",
-        "index-description": "Description..."
+        "index-description": "Description...",
+        "images": {
+            "outside4-title": "The outside"
+        }
     },
 
     "frossarbo19": {
