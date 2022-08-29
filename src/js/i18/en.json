@@ -7,6 +7,20 @@
         "choose_language": "Choose language"
     },
     "all_rights_reserved": "All rights reserved.",
-    "maintained_by": "The website is maintained by"
+    "maintained_by": "The website is maintained by",
+    
+
+    "testimonials": {
+        "1": {
+            "date": "January 2021",
+            "name": "Juan Jesús",
+            "text": "\"A personal, cozy, and atmospheric place. Walks in the woods, excursion to Sandviksbadet, sausage grilling - many fun activities for the whole family. Very nice host couple.\""
+        },
+        "2": {
+            "date": "July 2021",
+            "name": "Bogdan",
+            "text": "\"The hosts Pia & Michael were very welcoming and supportive with our small requests. They also been very helpful with info about the activities and places we wanted to visit. The place is big and can accommodate large groups easily. It's situated near the forest where you can find nice scenery at a short walk distance and lots of berries in the summer.\""
+        }
+    }
 }
     
