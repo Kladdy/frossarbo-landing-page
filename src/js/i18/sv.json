@@ -7,6 +7,18 @@
         "choose_language": "Välj språk"
     },
     "all_rights_reserved": "Alla rättigheter förbehålles.",
-    "maintained_by": "Hemsidan underhålls av"
+    "maintained_by": "Hemsidan underhålls av",
+    "testimonials": {
+        "1": {
+            "date": "januari 2021",
+            "name": "Juan Jesús",
+            "text": "\"Ett personligt, mysigt och stämningsfullt ställe. Promenader i skogen, utflykt till Sandviksbadet, korvgrillning - många roliga aktiviteter för hela familjen. Väldigt trevligt värdpar.\""
+        },
+        "2": {
+            "date": "juli 2021",
+            "name": "Bogdan",
+            "text": "\"Värdarna Pia och Michael var mycket välkomnande och stödjande med våra små förfrågningar. De var också mycket hjälpsamma med information om de aktiviteter och platser vi ville besöka. Platsen är stor och rymmer lätt stora grupper. Det ligger nära skogen där du kan hitta fin natur på kort gångavstånd och massor av bär på sommaren.\""
+        }
+    }
 }
     

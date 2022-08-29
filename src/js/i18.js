@@ -18,7 +18,7 @@ async function i18Loader() {
     return acc;
   }, {});
   await i18next.init({
-    lng: "sv",
+    lng: "en",
     debug: true,
     resources: res
   });
