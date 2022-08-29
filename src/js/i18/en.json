@@ -17,6 +17,10 @@
         "vision": "Our vision"
     },
 
+    "faq": {
+        "title": "Frequently asked questions"
+    },
+
     "index": {
         "cards": {
             "read-more": "Read more"
