@@ -17,6 +17,30 @@
         "vision": "Our vision"
     },
 
+    "index": {
+        "cards": {
+            "read-more": "Read more"
+        }
+    },
+
+    "frossarbo17": {
+        "title": "Frossarbo 17",
+        "description": "Our nature paradise at the end of the road",
+        "index-description": "Description..."
+    },
+
+    "frossarbo19": {
+        "title": "Frossarbo 19",
+        "description": "Our paradise at the end of the road",
+        "index-description": "Description..."
+    },
+
+    "vision": {
+        "title": "Our vision",
+        "description": "...",
+        "index-description": "Description..."
+    },
+
     "testimonials": {
         "1": {
             "date": "January 2021",

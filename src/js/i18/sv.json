@@ -17,6 +17,12 @@
         "vision": "Vår vision"
     },
 
+    "index": {
+        "cards": {
+            "read-more": "Läs mer"
+        }
+    },
+
     "testimonials": {
         "1": {
             "date": "januari 2021",

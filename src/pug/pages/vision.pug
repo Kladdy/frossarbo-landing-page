@@ -1,0 +1,55 @@
+extends ../layouts/default.pug
+
+block config
+
+    //- Global Page Configuration
+    - var pageTitle = 'Vision'
+
+block content
+
+    //- * * * * * * * *
+    //- * * Navbar  * *
+    //- * * * * * * * *
+
+    include mixins/navbar.pug
+    +navbar({
+        navbarBg: 'bg-white',
+        navbarStyle: 'navbar-light',
+        navbarBrandColor: 'text-dark',
+        navbarBtnColor: 'btn-primary',
+        navbarContainer: 'container px-5',
+    })
+
+    //- * * * * * * * * * *
+    //- * * Page Header * *
+    //- * * * * * * * * * *
+
+    include mixins/header.pug
+    +header({
+        pageHeaderBg: 'bg-img-cover overlay overlay-light overlay-80',
+        pageHeaderBgImg: 'background-image: url("https://source.unsplash.com/R-LK3sqLiBw/1600x1200")',
+        pageHeaderStyle: 'page-header-ui-light',
+        svgBorderAngled: false,
+        svgBorderRounded: true,
+        svgBorderWaves: false,
+        svgBorderFill: 'text-white'
+    })
+
+        .page-header-ui-content.py-5.position-relative
+            .container.px-5
+                .row.gx-5.justify-content-center
+                    .col-xl-8.col-lg-10.text-center
+                        h1.page-header-ui-title.i18nelement(data-i18n='vision.title')
+                        p.page-header-ui-text.mb-5.i18nelement(data-i18n='vision.description')
+                        a.btn.btn-primary.fw-500.me-2(href='#!') Get Started
+                        a.btn.btn-link.fw-500(href='#!') Learn More
+
+    hr.my-0
+
+block footer
+
+    include mixins/footer.pug
+    +footer({
+        footerBg: 'bg-white',
+        footerStyle: 'footer-light'
+    })
