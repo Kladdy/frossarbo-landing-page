@@ -8,7 +8,14 @@
     },
     "all_rights_reserved": "All rights reserved.",
     "maintained_by": "The website is maintained by",
-    
+    "via": "via", 
+
+    "pages": {
+        "home": "Home",
+        "frossarbo17": "Frossarbo 17",
+        "frossarbo19": "Frossarbo 19",
+        "vision": "Our vision"
+    },
 
     "testimonials": {
         "1": {

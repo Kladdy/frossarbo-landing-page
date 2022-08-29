@@ -8,6 +8,15 @@
     },
     "all_rights_reserved": "Alla rättigheter förbehålles.",
     "maintained_by": "Hemsidan underhålls av",
+    "via": "via", 
+
+    "pages": {
+        "home": "Hem",
+        "frossarbo17": "Frossarbo 17",
+        "frossarbo19": "Frossarbo 19",
+        "vision": "Vår vision"
+    },
+
     "testimonials": {
         "1": {
             "date": "januari 2021",

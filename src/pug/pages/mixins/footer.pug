@@ -1,12 +1,12 @@
 mixin footer(options)
 
-    footer.footer.pt-10.pb-5.mt-auto(class=options.footerBg, class=options.footerStyle)
+    footer.footer.pt-5.pb-5.mt-auto(class=options.footerBg, class=options.footerStyle)
 
         if block
             block
         else
             .container.px-5
-                .row.gx-5
+                //- .row.gx-5
                     .col-lg-3
                         .footer-brand
                             | SB UI Kit Pro
@@ -74,15 +74,17 @@ mixin footer(options)
                                     li
                                         a(href='#!') License
                                 
-                hr.my-5
+                //- hr.my-5
+
+                - current_year = (new Date()).getFullYear();
 
                 .row.gx-5.align-items-center
 
                     .col-md-6.small
-                        | Copyright &copy; Your Website 2021
-                    .col-md-6.text-md-end.small
-                        a(href='#!') Privacy Policy
-                        | 
-                        | &middot;
-                        | 
-                        a(href='#!') Terms &amp; Conditions
+                        p.text-muted.small.mb-4.mb-lg-0 &copy; Frossarbo Ängar AB #{current_year}. #[span.i18nelement(data-i18n='all_rights_reserved')]#[br]#[span.i18nelement(data-i18n='maintained_by')] #[a.consulting-links(href="https://sigfrid.me") Sigfrid Stjärnholm] #[span.i18nelement(data-i18n='via')] #[a.consulting-links(href="https://consulting.stjarnholm.com") Stjärnholm Consulting.]
+                    //- .col-md-6.text-md-end.small
+                    //-     a(href='#!') Privacy Policy
+                    //-     | 
+                    //-     | &middot;
+                    //-     | 
+                    //-     a(href='#!') Terms &amp; Conditions
