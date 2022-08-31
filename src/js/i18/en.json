@@ -34,6 +34,18 @@
         "index-description": "Description...",
         "readytobook": "Ready to book?",
         "readytobook-description": "Please contact us for availibility and prices. We are looking forward to hearing from you!",
+        "metadata": {
+            "beds-title": "8 beds",
+            "beds-description": "With 8 beds in 4 bedrooms on 3 different floors, you will have a perfect place to stay with plenty of space. An additional 2 beds can be added, allowing for 10 people to stay comfortably.",
+            "shower_and_wash-title": "Showers and washing machines",
+            "shower_and_wash-description": "Showers are located in each floor of the building. Two washing machines and a dryer are availible. A sink is located in the washing machine room.",
+            "kitchen-title": "Kitchen",
+            "kitchen-description": "A fully equipped kitchen is located in the first floor of the building. The kitchen houses a dishwasher, microwave, coffe pot, water kettle, fridge and freezer.",
+            "living_room-title": "Living room",
+            "living_room-description": "The living room is located in the first floor of the building. In here you will find a sofa and a TV, allowing you to relax. A dining table is located in the living room.",
+            "outside-title": "Vicinity to nature",
+            "outside-description": "Right outside of the building, you will find a veranda and patio. On the back"
+        },
         "images": {
             "bedroom1-title": "Bedroom",
             "bedroom2-title": "Bedroom",
