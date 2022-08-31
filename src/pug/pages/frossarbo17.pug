@@ -57,18 +57,31 @@ block content
     })
         //- List of images, with title translation string and name of image file.
         - 
-          var images_col1 = [ ["outside4", "outside4.jpg.webp"],
-              ["outside4", "outside4.jpg.webp"],
+          var images_col1 = [ ["bedroom1", "bedroom1.jpg.webp"],
+              ["bedroom2", "bedroom2.jpg.webp"],
+              ["bedroom3", "bedroom3.jpg.webp"],
+              ["bedroom4", "bedroom4.jpg.webp"],
+              ["bedroom6", "bedroom6.jpg.webp"],
+              ["bedroom7", "bedroom7.jpg"],
           ]
 
         - 
-          var images_col2 = [ ["outside4", "outside4.jpg.webp"],
+          var images_col2 = [ ["outside3", "outside3.jpg"],
               ["outside4", "outside4.jpg.webp"],
+              ["outside5", "outside5.jpg.webp"],
+              ["outside8", "outside8.jpg.webp"],
+              ["outside9", "outside9.jpg.webp"],
+              ["bathroom1", "bathroom1.jpg.webp"],
+              ["bathroom2", "bathroom2.jpg.webp"],
           ]
 
         - 
-          var images_col3 = [ ["outside4", "outside4.jpg.webp"],
-              ["outside4",  "outside4.jpg.webp"],
+          var images_col3 = [ ["kitchen4", "kitchen4.jpg"],
+              ["livingroom1",  "livingroom1.jpg.webp"],
+              ["livingroom2",  "livingroom2.jpg"],
+              ["livingroom3",  "livingroom3.jpg.webp"],
+              ["livingroom6",  "livingroom6.jpg.webp"],
+              ["basement4", "basement4.jpg.webp"],
           ]
 
         .container.px-5
@@ -111,9 +124,12 @@ block content
         .container.px-5
             .row.gx-5.justify-content-center
                 .col-xl-6.col-lg-8.col-md-10.text-center.py-5
-                    h2 Ready to get Started?
-                    p.lead.text-gray-500.mb-5 We'd love to hear from you about your branding and digital needs. We are currently accepting new clients.
-                    a(href='#!').btn.btn-primary.fw-500 Contact us
+                    h2
+                        .i18nelement(data-i18n='frossarbo17.readytobook')
+                    .lead.text-gray-500.mb-5
+                        p.i18nelement(data-i18n='frossarbo17.readytobook-description')
+                    a(href='contact.html').btn.btn-primary.fw-500
+                        .i18nelement(data-i18n='pages.contact')
 
 block footer
 

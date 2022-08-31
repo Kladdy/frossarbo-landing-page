@@ -14,7 +14,8 @@
         "home": "Home",
         "frossarbo17": "Frossarbo 17",
         "frossarbo19": "Frossarbo 19",
-        "vision": "Our vision"
+        "vision": "Our vision",
+        "contact": "Contact us"
     },
 
     "faq": {
@@ -31,15 +32,38 @@
         "title": "Frossarbo 17",
         "description": "Our nature paradise at the end of the road",
         "index-description": "Description...",
+        "readytobook": "Ready to book?",
+        "readytobook-description": "Please contact us for availibility and prices. We are looking forward to hearing from you!",
         "images": {
-            "outside4-title": "The outside"
+            "bedroom1-title": "Bedroom",
+            "bedroom2-title": "Bedroom",
+            "bedroom3-title": "Bedroom",
+            "bedroom4-title": "Bedroom",
+            "bedroom6-title": "Bedroom",
+            "bedroom7-title": "Bedroom",
+            "outside3-title": "Outdoor patio",
+            "outside4-title": "Outdoors",
+            "outside5-title": "Outdoors during winter",
+            "outside8-title": "Outdoors",
+            "outside9-title": "Outdoor veranda",
+            "bathroom1-title": "Bathroom",
+            "bathroom2-title": "Bathroom",
+            "kitchen4-title": "Kitchen",
+            "livingroom1-title": "Living room",
+            "livingroom2-title": "Living room",
+            "livingroom3-title": "Living room",
+            "livingroom6-title": "Living room",
+            "basement4-title": "Basement with washing machine and dryer"
         }
     },
 
     "frossarbo19": {
         "title": "Frossarbo 19",
         "description": "Our paradise at the end of the road",
-        "index-description": "Description..."
+        "index-description": "Description...",
+        "images": { 
+
+        }
     },
 
     "vision": {
