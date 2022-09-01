@@ -27,7 +27,7 @@ block content
     include mixins/header.pug
     +header({
         pageHeaderBg: 'bg-img-cover overlay overlay-light overlay-80',
-        pageHeaderBgImg: 'background-image: url("https://source.unsplash.com/R-LK3sqLiBw/1600x1200")',
+        pageHeaderBgImg: 'background-image: url("/assets/img/frossarbo19/outside8.jpg")',
         pageHeaderStyle: 'page-header-ui-light',
         svgBorderAngled: false,
         svgBorderRounded: true,
@@ -40,10 +40,11 @@ block content
                 .row.gx-5.justify-content-center
                     .col-xl-8.col-lg-10.text-center
                         h1.page-header-ui-title
-                            img.h-100(src='/assets/img/logo/Logga-no_bg-1000-trimmed.png' width="150" alt='Frossarbo Ängar')
-                        p.page-header-ui-text.mb-5 Opening your home to vacationers is a great way to earn some extra income, and this is a great way to get started!
-                        a.btn.btn-primary.fw-500.me-2(href='#!') Get Started
-                        a.btn.btn-link.fw-500(href='#!') Learn More
+                            img.h-100(src='/assets/img/logo/Logga-no_bg-1000-trimmed.png' width="200" alt='Frossarbo Ängar')
+                        p.page-header-ui-text.mb-5.i18nelement(data-i18n='index.subtitle')
+                        a.btn.btn-primary.fw-500(href='contact.html')
+                            .i18nelement(data-i18n='pages.contact')
+                        //- a.btn.btn-link.fw-500(href='#!') Learn More
 
     //- * * * * * * * * * * *
     //- * * Intro Section * *
@@ -103,24 +104,24 @@ block content
                 .accordion-item
                     h2#headingOne.accordion-header
                         button.accordion-button.py-4(type='button', data-bs-toggle='collapse', data-bs-target='#collapseOne', aria-expanded='true', aria-controls='collapseOne')
-                            | Is there a minimum number of nights?
+                            .i18nelement(data-i18n='faq.q1')
                     #collapseOne.accordion-collapse.collapse.show(aria-labelledby='headingOne', data-bs-parent='#accordionFaq')
                         .accordion-body
-                            | Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto facere placeat dolor tempora dicta! Provident, vero voluptas! Culpa at, dolor repellat tenetur sunt, nobis repudiandae odit veniam, a placeat quasi.
+                            .i18nelement(data-i18n='faq.a1')
                 .accordion-item
                     h2#headingTwo.accordion-header
                         button.accordion-button.py-4.collapsed(type='button', data-bs-toggle='collapse', data-bs-target='#collapseTwo', aria-expanded='false', aria-controls='collapseTwo')
-                            | How close is the nearest grocery store?
+                            .i18nelement(data-i18n='faq.q2')
                     #collapseTwo.accordion-collapse.collapse(aria-labelledby='headingTwo', data-bs-parent='#accordionFaq')
                         .accordion-body
-                            | Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate praesentium ab placeat! Nostrum magnam iste maiores corporis laborum aspernatur! Itaque optio qui voluptatibus sequi numquam sit deleniti iure nihil dolorem?
+                            .i18nelement(data-i18n='faq.a2')
                 .accordion-item
                     h2#headingThree.accordion-header
                         button.accordion-button.py-4.collapsed(type='button', data-bs-toggle='collapse', data-bs-target='#collapseThree', aria-expanded='false', aria-controls='collapseThree')
-                            | Is there a discount for longer term rental periods?
+                            .i18nelement(data-i18n='faq.q3')
                     #collapseThree.accordion-collapse.collapse(aria-labelledby='headingThree', data-bs-parent='#accordionFaq')
                         .accordion-body
-                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt placeat libero perferendis nostrum? Voluptate, eius incidunt alias adipisci tempore cupiditate. Pariatur repellendus tenetur autem libero dignissimos eos dicta impedit consectetur.
+                            .i18nelement(data-i18n='faq.a3')
 
     //- * * * * * * * * * * * *
     //- * * Call to Action  * *
@@ -129,7 +130,7 @@ block content
     include mixins/section.pug
     +section({
         sectionBg: 'bg-img-cover overlay overlay-light overlay-80',
-        sectionBgImg: 'background-image: url("https://source.unsplash.com/BlIhVfXbi9s/1600x800")',
+        sectionBgImg: 'background-image: url("/assets/img/frossarbo17/livingroom3.jpg.webp")',
         sectionPadding: 'py-15',
         svgBorderAngled: true,
         svgBorderRounded: false,
@@ -139,8 +140,9 @@ block content
 
         .container.px-5.z-1
             .mt-5
-                .display-4.mb-3.text-dark Ready to book?
-                a.btn.btn-primary.fw-500(href='#!') Search Availability
+                .display-4.mb-3.text-dark.i18nelement(data-i18n='frossarbo17.readytobook')
+                a.btn.btn-primary.fw-500(href='contact.html')
+                    .i18nelement(data-i18n='pages.contact')
 
     //- * * * * * * * * * * *
     //- * * Testimonials  * *

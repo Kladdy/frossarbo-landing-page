@@ -19,10 +19,17 @@
     },
 
     "faq": {
-        "title": "Frequently asked questions"
+        "title": "Frequently asked questions",
+        "q3": "How far is the distance between Uppsala and Frossarbo Ängar?",
+        "a3": "Frossarbo Ängar is located 30 km outside of Uppsala.",
+        "q2": "Are there any stores nearby?",
+        "a2": "There is a store in Björklinge, roughly 10 minutes away from Frossarbo Ängar. There is also a country store located 10 minutes away.",
+        "q1": "What kind of activities can be done at Frossarbo Ängar?",
+        "a1": "Thanks to the vicinity to nature, many of our guests spend a lot of time on walks in the forest. Resting in the hammock, grilling by the fireplace and picking mushrooms or berries in the forest are common activities. We love to help our guests find activities that suit their interests."
     },
 
     "index": {
+        "subtitle": "Frossarbo Ängar is an idyllic place located outside of Uppsala, Sweden. With the surrounding forest and beautiful nature, Frossarbo Ängar is the perfect place for relaxing. We have two houses for rent, and we can accomodate everything from a small family to a large workforce.",
         "cards": {
             "read-more": "Read more"
         }
@@ -83,6 +90,12 @@
         "title": "Our vision",
         "description": "...",
         "index-description": "Description..."
+    },
+
+    "contact": {
+        "title": "Contact us",
+        "description": "If you have any questions regarding availibility, pricing or anything else, we are happy to hear from you! Please contact us using the information below.",
+        "address": "Frossarbo 21, 743 71 Uppsala, Sweden"
     },
 
     "testimonials": {
