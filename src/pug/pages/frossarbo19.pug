@@ -27,12 +27,12 @@ block content
     include mixins/header.pug
     +header({
         pageHeaderBg: 'bg-img-cover overlay overlay-light overlay-80',
-        pageHeaderBgImg: 'background-image: url("https://source.unsplash.com/R-LK3sqLiBw/1600x1200")',
+        pageHeaderBgImg: 'background-image: url("/assets/img/frossarbo19/outside6.jpg")',
         pageHeaderStyle: 'page-header-ui-light',
         svgBorderAngled: false,
         svgBorderRounded: true,
         svgBorderWaves: false,
-        svgBorderFill: 'text-white'
+        svgBorderFill: 'text-light'
     })
 
         .page-header-ui-content.py-5.position-relative
@@ -42,12 +42,136 @@ block content
                         h1.page-header-ui-title.i18nelement(data-i18n='frossarbo19.title')
                         p.page-header-ui-text.mb-5.i18nelement(data-i18n='frossarbo19.description')
 
-    hr.my-0
+
+    include mixins/section.pug
+    +section({
+        sectionBg: 'bg-light',
+        sectionPadding: 'py-10',
+        svgBorderAngled: false,
+        svgBorderRounded: false,
+        svgBorderWaves: false,
+        svgBorderFill: ''
+    })
+
+        //- * * * * * * * * * * *
+        //- * * Intro Section * *
+        //- * * * * * * * * * * *
+
+        .container.px-5.pb-10
+            .row.gx-5.text-center
+                .col-lg-4.mb-5.mb-lg-0
+                    .icon-stack.icon-stack-xl.bg-gradient-primary-to-secondary.text-white.mb-4
+                        i(class="fas fa-bed")
+                    h3.i18nelement(data-i18n='frossarbo19.metadata.beds-title')
+                    p.mb-0.i18nelement(data-i18n='frossarbo19.metadata.beds-description')
+                .col-lg-4.mb-5.mb-lg-0
+                    .icon-stack.icon-stack-xl.bg-gradient-primary-to-secondary.text-white.mb-4
+                        i(class="fas fa-sink")
+                    h3.i18nelement(data-i18n='frossarbo19.metadata.kitchen-title')
+                    p.mb-0.i18nelement(data-i18n='frossarbo19.metadata.kitchen-description')
+                .col-lg-4
+                    .icon-stack.icon-stack-xl.bg-gradient-primary-to-secondary.text-white.mb-4
+                        i(class="fas fa-shower")
+                    h3.i18nelement(data-i18n='frossarbo19.metadata.shower_and_wash-title')
+                    p.mb-0.i18nelement(data-i18n='frossarbo19.metadata.shower_and_wash-description')
+                
+        .container.px-5.pb-10
+            .row.justify-content-center.gx-5.text-center
+                .col-lg-4.mb-5.mb-lg-0
+                    .icon-stack.icon-stack-xl.bg-gradient-primary-to-secondary.text-white.mb-4
+                        i(class="fas fa-couch")
+                    h3.i18nelement(data-i18n='frossarbo19.metadata.living_room-title')
+                    p.mb-0.i18nelement(data-i18n='frossarbo19.metadata.living_room-description')
+                .col-lg-4
+                    .icon-stack.icon-stack-xl.bg-gradient-primary-to-secondary.text-white.mb-4
+                        i(class="fas fa-cloud-sun")
+                    h3.i18nelement(data-i18n='frossarbo19.metadata.outside-title')
+                    p.mb-0.i18nelement(data-i18n='frossarbo19.metadata.outside-description')
+
+        //- * * * * * * * * *
+        //- * * Portfolio * *
+        //- * * * * * * * * *
+
+    
+        //- List of images, with title translation string and name of image file.
+        - 
+          var images_col1 = [ ["bedroom1", "bedroom1.jpg"],
+            ["bedroom2", "bedroom2.jpg"],
+            ["bedroom3", "bedroom3.jpg"],
+            ["bedroom4", "bedroom4.jpg"],
+            ["bedroom5", "bedroom5.jpg"],
+            ["bedroom6", "bedroom6.jpg"],
+          ]
+
+        - 
+          var images_col2 = [ ["outside1", "outside1.jpg"],
+            ["outside2", "outside2.jpg"],
+            ["outside5", "outside5.jpg"],
+            ["outside6", "outside6.jpg"],
+            ["outside7", "outside7.jpg"],
+            ["outside8", "outside8.jpg"],
+          ]
+
+        - 
+          var images_col3 = [ ["kitchen1", "kitchen1.jpg"],
+            ["livingroom1", "livingroom1.jpg"],
+            ["bathroom1", "bathroom1.jpg"],
+            ["plant1", "plant1.jpg"],
+            ["outside3", "outside3.jpg"],
+            ["outside4", "outside4.jpg"],
+          ]
+
+        .container.px-5
+            .row.gx-5
+                .col-md-4
+                    - for (var i = 0; i < images_col1.length; i++) 
+                        .card.card-portfolio.mb-5
+                            img.card-img-top(src='/assets/img/frossarbo19/' + images_col1[i][1] , alt='...')
+                            .card-body
+                                .card-title.i18nelement(data-i18n='frossarbo19.images.' + images_col1[i][0] + "-title") 
+                    
+                .col-md-4
+                    - for (var i = 0; i < images_col2.length; i++) 
+                        .card.card-portfolio.mb-5
+                            img.card-img-top(src='/assets/img/frossarbo19/' + images_col2[i][1] , alt='...')
+                            .card-body
+                                .card-title.i18nelement(data-i18n='frossarbo19.images.' + images_col2[i][0] + "-title") 
+
+                .col-md-4
+                    - for (var i = 0; i < images_col3.length; i++) 
+                        .card.card-portfolio.mb-5
+                            img.card-img-top(src='/assets/img/frossarbo19/' + images_col3[i][1] , alt='...')
+                            .card-body
+                                .card-title.i18nelement(data-i18n='frossarbo19.images.' + images_col3[i][0] + "-title") 
+
+    //- * * * * * * * * * * * * * * * *
+    //- * * Contact Button Section  * *
+    //- * * * * * * * * * * * * * * * *
+
+    include mixins/section.pug
+    +section({
+        sectionBg: 'bg-white',
+        sectionPadding: 'py-10',
+        svgBorderAngled: false,
+        svgBorderRounded: true,
+        svgBorderWaves: false,
+        svgBorderFill: 'text-dark'
+    })
+
+        .container.px-5
+            .row.gx-5.justify-content-center
+                .col-xl-6.col-lg-8.col-md-10.text-center.py-5
+                    h2
+                        .i18nelement(data-i18n='frossarbo19.readytobook')
+                    .lead.text-gray-500.mb-5
+                        p.i18nelement(data-i18n='frossarbo19.readytobook-description')
+                    a(href='contact.html').btn.btn-primary.fw-500
+                        .i18nelement(data-i18n='pages.contact')
 
 block footer
 
     include mixins/footer.pug
     +footer({
-        footerBg: 'bg-white',
-        footerStyle: 'footer-light'
+        footerBg: 'bg-dark',
+        footerStyle: 'footer-dark'
     })

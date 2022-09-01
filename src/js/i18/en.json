@@ -20,10 +20,10 @@
 
     "faq": {
         "title": "Frequently asked questions",
-        "q3": "How far is the distance between Uppsala and Frossarbo Ängar?",
-        "a3": "Frossarbo Ängar is located 30 km outside of Uppsala.",
-        "q2": "Are there any stores nearby?",
-        "a2": "There is a store in Björklinge, roughly 10 minutes away from Frossarbo Ängar. There is also a country store located 10 minutes away.",
+        "q3": "How far is the distance between Uppsala and Frossarbo Ängar, and are there any stores nearby?",
+        "a3": "Frossarbo Ängar is located 30 km outside of Uppsala. There is a store in Björklinge, roughly 10 minutes away from Frossarbo Ängar. There is also a country store located 10 minutes away.",
+        "q2": "Do you have WiFi and parking?",
+        "a2": "Yes! We do have freely available WiFi for our guests, as well as plenty of parking space.",
         "q1": "What kind of activities can be done at Frossarbo Ängar?",
         "a1": "Thanks to the vicinity to nature, many of our guests spend a lot of time on walks in the forest. Resting in the hammock, grilling by the fireplace and picking mushrooms or berries in the forest are common activities. We love to help our guests find activities that suit their interests."
     },
@@ -81,8 +81,39 @@
         "title": "Frossarbo 19",
         "description": "Our paradise at the end of the road",
         "index-description": "Description...",
-        "images": { 
-
+        "readytobook": "Ready to book?",
+        "readytobook-description": "Please contact us for availibility and pricing. We are looking forward to hearing from you!",
+        "metadata": {
+            "beds-title": "8 beds",
+            "beds-description": "With 8 beds in 4 bedrooms on 3 different floors, you will have a perfect place to stay with plenty of space. An additional 2 beds can be added, allowing for 10 people to stay comfortably.",
+            "shower_and_wash-title": "Showers and washing machines",
+            "shower_and_wash-description": "Showers are located in each floor of the building. Two washing machines and a dryer are availible. A sink is located in the washing machine room.",
+            "kitchen-title": "Kitchen",
+            "kitchen-description": "A fully equipped kitchen is located in the first floor of the building. The kitchen houses a dishwasher, microwave, coffe pot, water kettle, fridge and freezer.",
+            "living_room-title": "Living room",
+            "living_room-description": "The living room is located in the first floor of the building. In here you will find a sofa and a TV, allowing you to relax. A dining table is located in the living room.",
+            "outside-title": "Vicinity to nature",
+            "outside-description": "Right outside of the building you will find a veranda and patio. On the back side of the building, a fireplace is located. The vivid forest surrounding the building is a great place to take a walk and enjoy nature."
+        },
+        "images": {
+            "bedroom1-title": "Bedroom",
+            "bedroom2-title": "Bedroom",
+            "bedroom3-title": "Bedroom",
+            "bedroom4-title": "Bedroom",
+            "bedroom5-title": "Bedroom",
+            "bedroom6-title": "Bedroom",
+            "outside1-title": "Outdoors",
+            "outside2-title": "Outdoors",
+            "outside3-title": "Outdoors",
+            "outside4-title": "Outdoors",
+            "outside5-title": "Outdoors",
+            "outside6-title": "Outdoors",
+            "outside7-title": "Outdoors",
+            "outside8-title": "Outdoors",
+            "bathroom1-title": "Bathroom",
+            "kitchen1-title": "Kitchen",
+            "livingroom1-title": "Living room",
+            "plant1-title": "Inside"
         }
     },
 
