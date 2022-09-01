@@ -27,7 +27,7 @@ block content
     include mixins/header.pug
     +header({
         pageHeaderBg: 'bg-img-cover overlay overlay-light overlay-80',
-        pageHeaderBgImg: 'background-image: url("/assets/img/frossarbo19/outside6.jpg")',
+        pageHeaderBgImg: 'background-image: url("assets/img/frossarbo19/outside6.jpg")',
         pageHeaderStyle: 'page-header-ui-light',
         svgBorderAngled: false,
         svgBorderRounded: true,
@@ -126,21 +126,21 @@ block content
                 .col-md-4
                     - for (var i = 0; i < images_col1.length; i++) 
                         .card.card-portfolio.mb-5
-                            img.card-img-top(src='/assets/img/frossarbo19/' + images_col1[i][1] , alt='...')
+                            img.card-img-top(src='assets/img/frossarbo19/' + images_col1[i][1] , alt='...')
                             .card-body
                                 .card-title.i18nelement(data-i18n='frossarbo19.images.' + images_col1[i][0] + "-title") 
                     
                 .col-md-4
                     - for (var i = 0; i < images_col2.length; i++) 
                         .card.card-portfolio.mb-5
-                            img.card-img-top(src='/assets/img/frossarbo19/' + images_col2[i][1] , alt='...')
+                            img.card-img-top(src='assets/img/frossarbo19/' + images_col2[i][1] , alt='...')
                             .card-body
                                 .card-title.i18nelement(data-i18n='frossarbo19.images.' + images_col2[i][0] + "-title") 
 
                 .col-md-4
                     - for (var i = 0; i < images_col3.length; i++) 
                         .card.card-portfolio.mb-5
-                            img.card-img-top(src='/assets/img/frossarbo19/' + images_col3[i][1] , alt='...')
+                            img.card-img-top(src='assets/img/frossarbo19/' + images_col3[i][1] , alt='...')
                             .card-body
                                 .card-title.i18nelement(data-i18n='frossarbo19.images.' + images_col3[i][0] + "-title") 
 
