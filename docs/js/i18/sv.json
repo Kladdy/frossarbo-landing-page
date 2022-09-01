@@ -1,0 +1,145 @@
+{
+    "languages":
+    {
+        "sv": "Svenska",
+        "en": "English",
+        "current": "Svenska",
+        "choose_language": "Välj språk"
+    },
+    "all_rights_reserved": "Alla rättigheter förbehålles.",
+    "maintained_by": "Hemsidan underhålls av",
+    "via": "via", 
+
+    "pages": {
+        "home": "Hem",
+        "frossarbo17": "Frossarbo 17",
+        "frossarbo19": "Frossarbo 19",
+        "vision": "Vår vision",
+        "contact": "Kontakta oss"
+    },
+
+    "faq": {
+        "title": "Vanliga frågor",
+        "q3": "Hur stort är avståndet mellan Uppsala och Frossarbo Ängar, och finns det några butiker i närheten?",
+        "a3": "Frossarbo Ängar ligger 30 km utanför Uppsala. Det finns en butik i Björklinge, ungefär 10 minuter från Frossarbo Ängar. Det finns också en lanthandel belägen 10 minuter bort.",
+        "q2": "Har ni WiFi och parkering?",
+        "a2": "Ja! Vi har WiFi för våra gäster samt gott om parkeringsplatser.",
+        "q1": "Vilka aktiviteter kan göras på Frossarbo Ängar?",
+        "a1": "Tack vare närheten till naturen spenderar många av våra gäster mycket tid på promenader i skogen. Att vila i hängmattan, grilla vid eldstaden och plocka svamp eller bär i skogen är vanliga aktiviteter. Vi hjälper gärna våra gäster att hitta aktiviteter som passar deras intressen."
+    },
+
+    "index": {
+        "subtitle": "Frossarbo Ängar är en idyllisk plats belägen utanför Uppsala. Med den omgivande skogen och vackra naturen är Frossarbo Ängar den perfekta platsen för avkoppling. Vi har två hus som vi hyr ut, och vi kan ta emot allt från en liten familj till en stor arbetargrupp.",
+        "cards": {
+            "read-more": "Läs mer"
+        }
+    },
+
+    "frossarbo17": {
+        "title": "Frossarbo 17",
+        "description": "Vårt naturparadis vid vägs ände",
+        "index-description": "Ett fantastiskt hus med alla nödvändigheter inuti, samt med en veranda och en eldstad utomhus.",
+        "readytobook": "Redo att boka?",
+        "readytobook-description": "Vänligen kontakta oss för tillgänglighet och priser. Vi ser fram emot att du hör av dig!",
+        "metadata": {
+            "beds-title": "8 sängar",
+            "beds-description": "Med 8 sängar i 4 sovrum på 3 olika våningar kommer ni att ha gott om plats. Ytterligare 2 sängar kan läggas till, vilket gör att upp till 10 personer bekvämt kan få plats i byggnaden.",
+            "shower_and_wash-title": "Duschar och tvättmaskiner",
+            "shower_and_wash-description": "Duschar finns på varje våning i byggnaden. Två tvättmaskiner och en torktumlare finns tillgängliga. Ett tvättställ finns i tvättstugan.",
+            "kitchen-title": "Kök",
+            "kitchen-description": "Ett fullt utrustat kök finns på första våningen i byggnaden. I köket finns diskmaskin, mikrovågsugn, kaffebryggare, vattenkokare, kyl och frys.",
+            "living_room-title": "Vardagsrum",
+            "living_room-description": "Vardagsrummet finns på första våningen i byggnaden. Här finns en soffa och TV, där ni kan koppla av efter en lång dag. En matplats finns i vardagsrummet.",
+            "outside-title": "Nära till naturen",
+            "outside-description": "Precis utanför byggnaden finns en veranda och en uteplats. På baksidan av byggnaden finns en grillplats. Den levande skogen som omger byggnaden är ett perfekt ställe att ta en promenad och njuta av naturen."
+        },
+        "images": {
+            "bedroom1-title": "Sovrum",
+            "bedroom2-title": "Sovrum",
+            "bedroom3-title": "Sovrum",
+            "bedroom4-title": "Sovrum",
+            "bedroom6-title": "Sovrum",
+            "bedroom7-title": "Sovrum",
+            "outside3-title": "Sittplats ute",
+            "outside4-title": "Utsidan",
+            "outside5-title": "Utsidan vintertid",
+            "outside8-title": "Utsidan",
+            "outside9-title": "Veranda",
+            "outside10-title": "Eldstad",
+            "bathroom1-title": "Badrum",
+            "bathroom2-title": "Badrum",
+            "kitchen4-title": "Kök",
+            "livingroom1-title": "Vardagsrum",
+            "livingroom2-title": "Vardagsrum",
+            "livingroom3-title": "Vardagsrum",
+            "livingroom6-title": "Vardagsrum",
+            "basement4-title": "Källare med tvättmaskiner och torktumlare"
+        }
+    },
+
+    "frossarbo19": {
+        "title": "Frossarbo 19",
+        "description": "Vårt paradis vid vägs ände",
+        "index-description": "Ett underbart hus med allt som behövs inuti, samt en veranda och en eldstad utomhus.",
+        "readytobook": "Redo att boka?",
+        "readytobook-description": "Vänligen kontakta oss för tillgänglighet och priser. Vi ser fram emot att du hör av dig!",
+        "metadata": {
+            "beds-title": "8 sängar",
+            "beds-description": "Med 8 sängar i 4 sovrum på 3 olika våningar kommer ni att ha gott om plats. Ytterligare 2 sängar kan läggas till, vilket gör att upp till 10 personer bekvämt kan få plats i byggnaden.",
+            "shower_and_wash-title": "Duschar och tvättmaskiner",
+            "shower_and_wash-description": "Duschar finns på varje våning i byggnaden. Två tvättmaskiner och en torktumlare finns tillgängliga. Ett tvättställ finns i tvättstugan.",
+            "kitchen-title": "Kök",
+            "kitchen-description": "Ett fullt utrustat kök finns på första våningen i byggnaden. I köket finns diskmaskin, mikrovågsugn, kaffebryggare, vattenkokare, kyl och frys.",
+            "living_room-title": "Vardagsrum",
+            "living_room-description": "Vardagsrummet finns på första våningen i byggnaden. Här finns en soffa och TV, där ni kan koppla av efter en lång dag. En matplats finns i vardagsrummet.",
+            "outside-title": "Nära till naturen",
+            "outside-description": "Precis utanför byggnaden finns en veranda och en uteplats. På baksidan av byggnaden finns en grillplats. Den levande skogen som omger byggnaden är ett perfekt ställe att ta en promenad och njuta av naturen."
+        },
+        "images": {
+            "bedroom1-title": "Sovrum",
+            "bedroom2-title": "Sovrum",
+            "bedroom3-title": "Sovrum",
+            "bedroom4-title": "Sovrum",
+            "bedroom5-title": "Sovrum",
+            "bedroom6-title": "Sovrum",
+            "outside1-title": "Utomhus",
+            "outside2-title": "Utomhus",
+            "outside3-title": "Utomhus",
+            "outside4-title": "Utomhus",
+            "outside5-title": "Utomhus",
+            "outside6-title": "Utomhus",
+            "outside7-title": "Utomhus",
+            "outside8-title": "Utomhus",
+            "bathroom1-title": "Badrum",
+            "kitchen1-title": "Kök",
+            "livingroom1-title": "Vardagsrum",
+            "plant1-title": "Inomhus"
+        }
+    },
+
+    "vision": {
+        "title": "Vår vision",
+        "description": "...",
+        "index-description": "Description..."
+    },
+
+    "contact": {
+        "title": "Kontakta oss",
+        "description": "Om du har några frågor angående tillgänglighet, priser eller något annat, så vill vi gärna att du hör av dig till oss! Var god kontakta oss med hjälp av informationen nedan.",
+        "address": "Frossarbo 21, 743 71 Uppsala"
+    },
+
+    "testimonials": {
+        "1": {
+            "date": "januari 2021",
+            "name": "Juan Jesús",
+            "text": "\"Ett personligt, mysigt och stämningsfullt ställe. Promenader i skogen, utflykt till Sandviksbadet, korvgrillning - många roliga aktiviteter för hela familjen. Väldigt trevligt värdpar.\""
+        },
+        "2": {
+            "date": "juli 2021",
+            "name": "Bogdan",
+            "text": "\"Värdarna Pia och Michael var mycket välkomnande och stödjande med våra små förfrågningar. De var också mycket hjälpsamma med information om de aktiviteter och platser vi ville besöka. Platsen är stor och rymmer lätt stora grupper. Det ligger nära skogen där du kan hitta fin natur på kort gångavstånd och massor av bär på sommaren.\""
+        }
+    }
+}
+    
