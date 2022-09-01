@@ -145,5 +145,9 @@ mixin navbar(options)
                 //-     | Buy Now
                 //-     i.ms-2(data-feather='arrow-right')
 
-                btn.btn-lg
-                    input(id="language-toggle-event" type="checkbox" data-toggle="toggle" data-on="<span class='fa-2xl flag-icon flag-icon-gb p-3'/>" data-off="<span class='fa-2xl flag-icon flag-icon-se p-3'/>" data-onstyle="primary" data-offstyle="warning" data-size="mini")
+            div.btn.btn-lg.d-none.d-lg-block
+                input(id="language-toggle-event" type="checkbox" data-toggle="toggle" data-on="<div><span class='fa-2xl flag-icon flag-icon-gb p-2'></span> English</div>" data-off="<div><span class='fa-2xl flag-icon flag-icon-se p-2'></span> Svenska</div>" data-onstyle="none" data-offstyle="none" data-size="normal")
+
+
+    div.bg-white.d-flex.justify-content-center.d-lg-none
+        input(id="language-toggle-event" type="checkbox" data-toggle="toggle" data-on="<div><span class='fa-2xl flag-icon flag-icon-gb p-2'></span> English</div>" data-off="<div><span class='fa-2xl flag-icon flag-icon-se p-2'></span> Svenska</div>" data-onstyle="none" data-offstyle="none" data-size="normal")
