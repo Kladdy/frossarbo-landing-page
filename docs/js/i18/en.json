@@ -1,0 +1,145 @@
+{
+    "languages":
+    {
+        "sv": "Svenska",
+        "en": "English",
+        "current": "English",
+        "choose_language": "Choose language"
+    },
+    "all_rights_reserved": "All rights reserved.",
+    "maintained_by": "The website is maintained by",
+    "via": "via", 
+
+    "pages": {
+        "home": "Home",
+        "frossarbo17": "Frossarbo 17",
+        "frossarbo19": "Frossarbo 19",
+        "vision": "Our vision",
+        "contact": "Contact us"
+    },
+
+    "faq": {
+        "title": "Frequently asked questions",
+        "q3": "How far is the distance between Uppsala and Frossarbo Ängar, and are there any stores nearby?",
+        "a3": "Frossarbo Ängar is located 30 km outside of Uppsala. There is a store in Björklinge, roughly 10 minutes away from Frossarbo Ängar. There is also a country store located 10 minutes away.",
+        "q2": "Do you have WiFi and parking?",
+        "a2": "Yes! We do have freely available WiFi for our guests, as well as plenty of parking space.",
+        "q1": "What kind of activities can be done at Frossarbo Ängar?",
+        "a1": "Thanks to the vicinity to nature, many of our guests spend a lot of time on walks in the forest. Resting in the hammock, grilling by the fireplace and picking mushrooms or berries in the forest are common activities. We love to help our guests find activities that suit their interests."
+    },
+
+    "index": {
+        "subtitle": "Frossarbo Ängar is an idyllic place located outside of Uppsala, Sweden. With the surrounding forest and beautiful nature, Frossarbo Ängar is the perfect place for relaxing. We have two houses for rent, and we can accomodate everything from a small family to a large workforce.",
+        "cards": {
+            "read-more": "Read more"
+        }
+    },
+
+    "frossarbo17": {
+        "title": "Frossarbo 17",
+        "description": "Our nature paradise at the end of the road",
+        "index-description": "A fantastic house with all necessities inside, along with a veranda and a fireplace outside.",
+        "readytobook": "Ready to book?",
+        "readytobook-description": "Please contact us for availibility and pricing. We are looking forward to hearing from you!",
+        "metadata": {
+            "beds-title": "8 beds",
+            "beds-description": "With 8 beds in 4 bedrooms on 3 different floors, you will have a perfect place to stay with plenty of space. An additional 2 beds can be added, allowing for 10 people to stay comfortably.",
+            "shower_and_wash-title": "Showers and washing machines",
+            "shower_and_wash-description": "Showers are located in each floor of the building. Two washing machines and a dryer are availible. A sink is located in the washing machine room.",
+            "kitchen-title": "Kitchen",
+            "kitchen-description": "A fully equipped kitchen is located in the first floor of the building. The kitchen houses a dishwasher, microwave, coffe pot, water kettle, fridge and freezer.",
+            "living_room-title": "Living room",
+            "living_room-description": "The living room is located in the first floor of the building. In here you will find a sofa and a TV, allowing you to relax. A dining table is located in the living room.",
+            "outside-title": "Vicinity to nature",
+            "outside-description": "Right outside of the building you will find a veranda and patio. On the back side of the building, a fireplace is located. The vivid forest surrounding the building is a great place to take a walk and enjoy nature."
+        },
+        "images": {
+            "bedroom1-title": "Bedroom",
+            "bedroom2-title": "Bedroom",
+            "bedroom3-title": "Bedroom",
+            "bedroom4-title": "Bedroom",
+            "bedroom6-title": "Bedroom",
+            "bedroom7-title": "Bedroom",
+            "outside3-title": "Outdoor patio",
+            "outside4-title": "Outdoors",
+            "outside5-title": "Outdoors during winter",
+            "outside8-title": "Outdoors",
+            "outside9-title": "Outdoor veranda",
+            "outside10-title": "Outdoor fireplace",
+            "bathroom1-title": "Bathroom",
+            "bathroom2-title": "Bathroom",
+            "kitchen4-title": "Kitchen",
+            "livingroom1-title": "Living room",
+            "livingroom2-title": "Living room",
+            "livingroom3-title": "Living room",
+            "livingroom6-title": "Living room",
+            "basement4-title": "Basement with washing machine and dryer"
+        }
+    },
+
+    "frossarbo19": {
+        "title": "Frossarbo 19",
+        "description": "Our paradise at the end of the road",
+        "index-description": "A wonderful house with all that is needed inside, along with a patio and a fireplace outside.",
+        "readytobook": "Ready to book?",
+        "readytobook-description": "Please contact us for availibility and pricing. We are looking forward to hearing from you!",
+        "metadata": {
+            "beds-title": "8 beds",
+            "beds-description": "With 8 beds in 4 bedrooms on 3 different floors, you will have a perfect place to stay with plenty of space. An additional 2 beds can be added, allowing for 10 people to stay comfortably.",
+            "shower_and_wash-title": "Showers and washing machines",
+            "shower_and_wash-description": "Showers are located in each floor of the building. Two washing machines and a dryer are availible. A sink is located in the washing machine room.",
+            "kitchen-title": "Kitchen",
+            "kitchen-description": "A fully equipped kitchen is located in the first floor of the building. The kitchen houses a dishwasher, microwave, coffe pot, water kettle, fridge and freezer.",
+            "living_room-title": "Living room",
+            "living_room-description": "The living room is located in the first floor of the building. In here you will find a sofa and a TV, allowing you to relax. A dining table is located in the living room.",
+            "outside-title": "Vicinity to nature",
+            "outside-description": "Right outside of the building you will find a and patio and a hammock. On the back side of the building, a fireplace is located. The vivid forest surrounding the building is a great place to take a walk and enjoy nature."
+        },
+        "images": {
+            "bedroom1-title": "Bedroom",
+            "bedroom2-title": "Bedroom",
+            "bedroom3-title": "Bedroom",
+            "bedroom4-title": "Bedroom",
+            "bedroom5-title": "Bedroom",
+            "bedroom6-title": "Bedroom",
+            "outside1-title": "Outdoors",
+            "outside2-title": "Outdoors",
+            "outside3-title": "Outdoors",
+            "outside4-title": "Outdoors",
+            "outside5-title": "Outdoors",
+            "outside6-title": "Outdoors",
+            "outside7-title": "Outdoors",
+            "outside8-title": "Outdoors",
+            "bathroom1-title": "Bathroom",
+            "kitchen1-title": "Kitchen",
+            "livingroom1-title": "Living room",
+            "plant1-title": "Inside"
+        }
+    },
+
+    "vision": {
+        "title": "Our vision",
+        "description": "...",
+        "index-description": "Description..."
+    },
+
+    "contact": {
+        "title": "Contact us",
+        "description": "If you have any questions regarding availibility, pricing or anything else, we are happy to hear from you! Please contact us using the information below.",
+        "address": "Frossarbo 21, 743 71 Uppsala, Sweden"
+    },
+
+    "testimonials": {
+        "1": {
+            "date": "January 2021",
+            "name": "Juan Jesús",
+            "text": "\"A personal, cozy, and atmospheric place. Walks in the woods, excursion to Sandviksbadet, sausage grilling - many fun activities for the whole family. Very nice host couple.\""
+        },
+        "2": {
+            "date": "July 2021",
+            "name": "Bogdan",
+            "text": "\"The hosts Pia & Michael were very welcoming and supportive with our small requests. They also been very helpful with info about the activities and places we wanted to visit. The place is big and can accommodate large groups easily. It's situated near the forest where you can find nice scenery at a short walk distance and lots of berries in the summer.\""
+        }
+    }
+}
+    
