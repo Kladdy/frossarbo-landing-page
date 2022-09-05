@@ -17,8 +17,25 @@ async function i18Loader() {
     acc[l] = { translation: jsons[idx] };
     return acc;
   }, {});
+
+  // Get browser language
+  var userLang = navigator.language || navigator.userLanguage || "en";
+  if (userLang) userLang = userLang.substring(0, 2); // Only take the first two letters
+
+  // Get selected language, if selected previosly
+  storedLang = localStorage.getItem("lang")
+  if (storedLang !== null) {
+    userLang = storedLang;
+  }
+
+  // Set default language if language is not supported
+  if (userLang !== "en" && userLang !== "sv") {
+    userLang = "en";
+  }
+
+  localStorage.setItem("lang", userLang)
   await i18next.init({
-    lng: "en",
+    lng: userLang,
     debug: true,
     resources: res
   });
@@ -36,11 +53,27 @@ async function i18Loader() {
     $('#language-toggle-event').on("change", function() {
       if ($(this).prop('checked')) {
         i18next.changeLanguage("sv");
+        localStorage.setItem("lang", "sv")
       } else {
         i18next.changeLanguage("en");
+        localStorage.setItem("lang", "en")
       }
     })
   })
 }
 
 i18Loader();
+
+// Set the language toggle correctly for the given language
+window.onload = function() {
+  //dom not only ready, but everything is loaded
+
+  if (i18next.language == 'en') {
+    $('#language-toggle-event').bootstrapToggle('off')
+  } else if (i18next.language == 'sv') {
+    $('#language-toggle-event').bootstrapToggle('on')
+    if (document.title == "Contact us | Frossarbo Ängar") {
+      document.title = "Kontakta oss | Frossarbo Ängar"
+    }
+  }
+};
