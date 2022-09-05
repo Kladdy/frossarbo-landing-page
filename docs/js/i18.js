@@ -67,13 +67,21 @@ i18Loader();
 // Set the language toggle correctly for the given language
 window.onload = function() {
   //dom not only ready, but everything is loaded
-
+  console.log("DOM is ready, language is set to " + i18next.language);
+  console.log("1: Toggle checked:", $('#language-toggle-event').prop('checked'))
   if (i18next.language == 'en') {
-    $('#language-toggle-event').bootstrapToggle('off')
+    if ($('#language-toggle-event').prop('checked')) {
+      console.log("Setting toggle off");
+      $('#language-toggle-event').bootstrapToggle('off')
+    }
   } else if (i18next.language == 'sv') {
-    $('#language-toggle-event').bootstrapToggle('on')
+    if (!$('#language-toggle-event').prop('checked')) {
+      console.log("Setting toggle on");
+      $('#language-toggle-event').bootstrapToggle('on')
+    }
     if (document.title == "Contact us | Frossarbo Ängar") {
       document.title = "Kontakta oss | Frossarbo Ängar"
     }
   }
+  console.log("2: Toggle checked:", $('#language-toggle-event').prop('checked'))
 };
