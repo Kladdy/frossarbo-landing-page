@@ -37,6 +37,20 @@
             <div id="layoutDefault_content">
                 <main>
                     <!-- Navbar-->
+                    <style>
+                        .slow .toggle-group {
+                            transition: left 0.7s;
+                            -webkit-transition: left 0.7s;
+                        }
+                        .fast .toggle-group {
+                            transition: left 0.1s;
+                            -webkit-transition: left 0.1s;
+                        }
+                        .quick .toggle-group {
+                            transition: none;
+                            -webkit-transition: none;
+                        }
+                    </style>
                     <nav class="navbar navbar-marketing navbar-expand-lg bg-white navbar-light">
                         <div class="container px-5">
                             <a class="navbar-brand text-dark" href="index.html"><img class="h-100" src="assets/img/logo/Logga-no_bg-1000-trimmed.png" width="150" alt="Frossarbo Ängar" /></a>
@@ -57,10 +71,10 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="btn btn-lg d-none d-lg-block"><input id="language-toggle-event" type="checkbox" checked data-toggle="toggle" data-on="&lt;div&gt;&lt;span class='fa-2xl flag-icon flag-icon-gb p-2'&gt;&lt;/span&gt;In&amp;nbsp;English&lt;/div&gt;" data-off="&lt;div&gt;&lt;span class='fa-2xl flag-icon flag-icon-se p-2'&gt;&lt;/span&gt;På&amp;nbsp;svenska&lt;/div&gt;" data-onstyle="none" data-offstyle="none" data-size="normal" /></div>
+                            <div class="btn btn-lg d-none d-lg-block"><input id="language-toggle-event" type="checkbox" checked data-toggle="toggle" data-on="&lt;div&gt;&lt;span class='fa-2xl flag-icon flag-icon-gb p-2'&gt;&lt;/span&gt;In&amp;nbsp;English&lt;/div&gt;" data-off="&lt;div&gt;&lt;span class='fa-2xl flag-icon flag-icon-se p-2'&gt;&lt;/span&gt;På&amp;nbsp;svenska&lt;/div&gt;" data-onstyle="none" data-offstyle="none" data-size="normal" data-style="quick" /></div>
                         </div>
                     </nav>
-                    <div class="bg-white d-flex justify-content-center d-lg-none"><input id="language-toggle-event" type="checkbox" checked data-toggle="toggle" data-on="&lt;div&gt;&lt;span class='fa-2xl flag-icon flag-icon-gb p-2'&gt;&lt;/span&gt;In&amp;nbsp;English&lt;/div&gt;" data-off="&lt;div&gt;&lt;span class='fa-2xl flag-icon flag-icon-se p-2'&gt;&lt;/span&gt;På&amp;nbsp;svenska&lt;/div&gt;" data-onstyle="none" data-offstyle="none" data-size="normal" /></div>
+                    <div class="bg-white d-flex justify-content-center d-lg-none"><input id="language-toggle-event-non-navbar" type="checkbox" checked data-toggle="toggle" data-on="&lt;div&gt;&lt;span class='fa-2xl flag-icon flag-icon-gb p-2'&gt;&lt;/span&gt;In&amp;nbsp;English&lt;/div&gt;" data-off="&lt;div&gt;&lt;span class='fa-2xl flag-icon flag-icon-se p-2'&gt;&lt;/span&gt;På&amp;nbsp;svenska&lt;/div&gt;" data-onstyle="none" data-offstyle="none" data-size="normal" data-style="quick" /></div>
                     <!-- Page Header-->
                     <header class="page-header-ui page-header-ui-light bg-img-cover overlay overlay-light overlay-80" style="background-image: url('assets/img/frossarbo19/outside8.jpg')">
                         <div class="page-header-ui-content py-5 position-relative">

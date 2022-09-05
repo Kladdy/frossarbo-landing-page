@@ -1,6 +1,12 @@
 // Navbar
 mixin navbar(options)
 
+    style.
+        .slow .toggle-group { transition: left 0.7s; -webkit-transition: left 0.7s; }
+        .fast .toggle-group { transition: left 0.1s; -webkit-transition: left 0.1s; }
+        .quick .toggle-group { transition: none; -webkit-transition: none; }
+
+
     nav.navbar.navbar-marketing.navbar-expand-lg(class=options.navbarBg, class=options.navbarStyle, class=options.navbarPosition)
         div(class=options.navbarContainer)
             a.navbar-brand(href='index.html', class=options.navbarBrandColor)
@@ -28,7 +34,7 @@ mixin navbar(options)
                         
                
             div.btn.btn-lg.d-none.d-lg-block
-                input(id="language-toggle-event" type="checkbox" checked data-toggle="toggle" data-on="<div><span class='fa-2xl flag-icon flag-icon-gb p-2'></span>In&nbsp;English</div>" data-off="<div><span class='fa-2xl flag-icon flag-icon-se p-2'></span>På&nbsp;svenska</div>" data-onstyle="none" data-offstyle="none" data-size="normal")
+                input(id="language-toggle-event" type="checkbox" checked data-toggle="toggle" data-on="<div><span class='fa-2xl flag-icon flag-icon-gb p-2'></span>In&nbsp;English</div>" data-off="<div><span class='fa-2xl flag-icon flag-icon-se p-2'></span>På&nbsp;svenska</div>" data-onstyle="none" data-offstyle="none" data-size="normal" data-style="quick")
 
     div.bg-white.d-flex.justify-content-center.d-lg-none
-        input(id="language-toggle-event" type="checkbox" checked data-toggle="toggle" data-on="<div><span class='fa-2xl flag-icon flag-icon-gb p-2'></span>In&nbsp;English</div>" data-off="<div><span class='fa-2xl flag-icon flag-icon-se p-2'></span>På&nbsp;svenska</div>" data-onstyle="none" data-offstyle="none" data-size="normal")
+        input(id="language-toggle-event-non-navbar" type="checkbox" checked data-toggle="toggle" data-on="<div><span class='fa-2xl flag-icon flag-icon-gb p-2'></span>In&nbsp;English</div>" data-off="<div><span class='fa-2xl flag-icon flag-icon-se p-2'></span>På&nbsp;svenska</div>" data-onstyle="none" data-offstyle="none" data-size="normal" data-style="quick")

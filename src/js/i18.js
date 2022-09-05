@@ -8,6 +8,38 @@ function updateContent() {
   }
 }
 
+// Set the language toggle correctly for the given language
+function initToggle() {
+  //dom not only ready, but everything is loaded
+  console.log("DOM is ready, language is set to " + i18next.language);
+  console.log("1: Toggle checked:", $('#language-toggle-event').prop('checked'))
+  console.log("1: Toggle checked non-navbar:", $('#language-toggle-event-non-navbar').prop('checked'))
+  if (i18next.language == 'en') {
+    if ($('#language-toggle-event').prop('checked')) {
+      console.log("Setting toggle off");
+      $('#language-toggle-event').bootstrapToggle('off')
+    }
+    if ($('#language-toggle-event-non-navbar').prop('checked')) {
+      console.log("Setting toggle off");
+      $('#language-toggle-event-non-navbar').bootstrapToggle('off')
+    }
+  } else if (i18next.language == 'sv') {
+    if (!$('#language-toggle-event').prop('checked')) {
+      console.log("Setting toggle on");
+      $('#language-toggle-event').bootstrapToggle('on')
+    }
+    if (!$('#language-toggle-event-non-navbar').prop('checked')) {
+      console.log("Setting toggle on non-navbar");
+      $('#language-toggle-event-non-navbar').bootstrapToggle('on')
+    }
+    if (document.title == "Contact us | Frossarbo Ängar") {
+      document.title = "Kontakta oss | Frossarbo Ängar"
+    }
+  }
+  console.log("2: Toggle checked:", $('#language-toggle-event').prop('checked'))
+  console.log("2: Toggle checked non-navbar:", $('#language-toggle-event-non-navbar').prop('checked'))
+};
+
 async function i18Loader() {
   const langs = ["en", "sv"];
   const jsons = await Promise.all(
@@ -42,6 +74,7 @@ async function i18Loader() {
 
   // Initial update
   updateContent();
+  initToggle();
 
   // On update language
   i18next.on("languageChanged", () => {
@@ -59,29 +92,16 @@ async function i18Loader() {
         localStorage.setItem("lang", "en")
       }
     })
+    $('#language-toggle-event-non-navbar').on("change", function() {
+      if ($(this).prop('checked')) {
+        i18next.changeLanguage("sv");
+        localStorage.setItem("lang", "sv")
+      } else {
+        i18next.changeLanguage("en");
+        localStorage.setItem("lang", "en")
+      }
+    })
   })
 }
 
 i18Loader();
-
-// Set the language toggle correctly for the given language
-window.onload = function() {
-  //dom not only ready, but everything is loaded
-  console.log("DOM is ready, language is set to " + i18next.language);
-  console.log("1: Toggle checked:", $('#language-toggle-event').prop('checked'))
-  if (i18next.language == 'en') {
-    if ($('#language-toggle-event').prop('checked')) {
-      console.log("Setting toggle off");
-      $('#language-toggle-event').bootstrapToggle('off')
-    }
-  } else if (i18next.language == 'sv') {
-    if (!$('#language-toggle-event').prop('checked')) {
-      console.log("Setting toggle on");
-      $('#language-toggle-event').bootstrapToggle('on')
-    }
-    if (document.title == "Contact us | Frossarbo Ängar") {
-      document.title = "Kontakta oss | Frossarbo Ängar"
-    }
-  }
-  console.log("2: Toggle checked:", $('#language-toggle-event').prop('checked'))
-};
