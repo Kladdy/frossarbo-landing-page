@@ -113,7 +113,26 @@
             "bathroom1-title": "Bathroom",
             "kitchen1-title": "Kitchen",
             "livingroom1-title": "Living room",
-            "plant1-title": "Inside"
+            "plant1-title": "Inside",
+
+            "hallway1-title": "Inside",
+            "hallway2-title": "Inside",
+            "livingroom3-title": "Living room",
+            "livingroom4-title": "Living room",
+            "livingroom5-title": "Living room",
+            "livingroom6-title": "Living room",
+            "livingroom7-title": "Living room",
+            "bathroom2-title": "Bathroom",
+            "bathroom4-title": "Bathroom",
+            "bathroom5-title": "Bathroom",
+            "kitchen2-title": "Kitchen",
+            "kitchen3-title": "Kitchen",
+            "kitchen4-title": "Kitchen",
+            "bedroom7-title": "Bedroom",
+            "bedroom8-title": "Bedroom",
+            "bedroom10-title": "Bedroom",
+            "bedroom11-title": "Bedroom",
+            "bedroom12-title": "Bedroom"
         }
     },
 

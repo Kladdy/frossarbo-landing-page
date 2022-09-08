@@ -113,7 +113,26 @@
             "bathroom1-title": "Badrum",
             "kitchen1-title": "Kök",
             "livingroom1-title": "Vardagsrum",
-            "plant1-title": "Inomhus"
+            "plant1-title": "Inomhus",
+
+            "hallway1-title": "Inomhus",
+            "hallway2-title": "Inomhus",
+            "livingroom3-title": "Vardagsrum",
+            "livingroom4-title": "Vardagsrum",
+            "livingroom5-title": "Vardagsrum",
+            "livingroom6-title": "Vardagsrum",
+            "livingroom7-title": "Vardagsrum",
+            "bathroom2-title": "Badrum",
+            "bathroom4-title": "Badrum",
+            "bathroom5-title": "Badrum",
+            "kitchen2-title": "Kök",
+            "kitchen3-title": "Kök",
+            "kitchen4-title": "Kök",
+            "bedroom7-title": "Sovrum",
+            "bedroom8-title": "Sovrum",
+            "bedroom10-title": "Sovrum",
+            "bedroom11-title": "Sovrum",
+            "bedroom12-title": "Sovrum"
         }
     },
 
