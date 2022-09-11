@@ -55,7 +55,10 @@ block content
 
         // People
         section.testimonials.text-center
-            p.pb-4.page-header-ui-text.mb-5.i18nelement(data-i18n='contact.description')
+            .container.px-5
+                .row.gx-5.justify-content-center.pb-5
+                    .col-xl-8.col-lg-10.text-center
+                        p.pb-4.page-header-ui-text.mb-5.i18nelement(data-i18n='contact.description')
             div.container
                 img.img-fluid.rounded-circle.mb-3(src='assets/img/people/pia.jpg', width=200, alt='Pia Wikström')
                 p.font-weight-light.mb-3.pb-3 
