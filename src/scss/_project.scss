@@ -5,3 +5,8 @@
 // This file is intentionally blank
 // Use this file to override SCSS within the project, or to add new SCSS
 // for creating your own CSS components
+
+.text-black-outline {
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 0.5rem #000 !important;
+}

@@ -26,7 +26,7 @@ block content
 
     include mixins/header.pug
     +header({
-        pageHeaderBg: 'bg-img-cover overlay overlay-light overlay-80',
+        pageHeaderBg: 'bg-img-cover',
         pageHeaderBgImg: 'background-image: url("assets/img/frossarbo17/outside10.jpg.webp")',
         pageHeaderStyle: 'page-header-ui-light',
         svgBorderAngled: false,
@@ -39,8 +39,8 @@ block content
             .container.px-5
                 .row.gx-5.justify-content-center
                     .col-xl-8.col-lg-10.text-center
-                        h1.page-header-ui-title.i18nelement(data-i18n='contact.title')
-                        p.page-header-ui-text.mb-5.i18nelement(data-i18n='contact.description')
+                        h1.page-header-ui-title.text-white.text-black-outline.i18nelement(data-i18n='contact.title')
+                        
 
 
     include mixins/section.pug
@@ -55,6 +55,7 @@ block content
 
         // People
         section.testimonials.text-center
+            p.pb-4.page-header-ui-text.mb-5.i18nelement(data-i18n='contact.description')
             div.container
                 img.img-fluid.rounded-circle.mb-3(src='assets/img/people/pia.jpg', width=200, alt='Pia Wikström')
                 p.font-weight-light.mb-3.pb-3 

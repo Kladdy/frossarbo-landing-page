@@ -26,7 +26,7 @@ block content
 
     include mixins/header.pug
     +header({
-        pageHeaderBg: 'bg-img-cover overlay overlay-light overlay-80',
+        pageHeaderBg: 'bg-img-cover',
         pageHeaderBgImg: 'background-image: url("assets/img/frossarbo19/outside6.jpg")',
         pageHeaderStyle: 'page-header-ui-light',
         svgBorderAngled: false,
@@ -39,8 +39,9 @@ block content
             .container.px-5
                 .row.gx-5.justify-content-center
                     .col-xl-8.col-lg-10.text-center
-                        h1.page-header-ui-title.i18nelement(data-i18n='frossarbo19.title')
-                        p.page-header-ui-text.mb-5.i18nelement(data-i18n='frossarbo19.description')
+                        img(src='assets/img/logo/Logga-no_bg-1000-19.png' width="200" alt='Frossarbo 19')
+                        //- h1.page-header-ui-title.i18nelement(data-i18n='frossarbo19.title')
+                        //- p.page-header-ui-text.mb-5.subtitle-text-color.i18nelement(data-i18n='frossarbo19.description')
 
 
     include mixins/section.pug
@@ -58,6 +59,7 @@ block content
         //- * * * * * * * * * * *
 
         .container.px-5.pb-10
+            h4.pb-4.page-header-ui-text.mb-5.text-center.i18nelement(data-i18n='frossarbo19.description')
             .row.gx-5.text-center
                 .col-lg-4.mb-5.mb-lg-0
                     .icon-stack.icon-stack-xl.bg-gradient-primary-to-secondary.text-white.mb-4
