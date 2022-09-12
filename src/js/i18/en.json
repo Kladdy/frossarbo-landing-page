@@ -96,11 +96,11 @@
             "outside-description": "Right outside of the building you will find a and patio and a hammock. On the back side of the building, a fireplace is located. The vivid forest surrounding the building is a great place to take a walk and enjoy nature."
         },
         "images": {
-            "bedroom1-title": "Bedroom",
-            "bedroom2-title": "Bedroom",
+            "bedroom1-title": "Bedroom 2",
+            "bedroom2-title": "Bedroom 4",
             "bedroom3-title": "Bedroom",
             "bedroom4-title": "Bedroom",
-            "bedroom5-title": "Bedroom",
+            "bedroom5-title": "Bedroom 3",
             "bedroom6-title": "Bedroom",
             "outside1-title": "Outdoors",
             "outside2-title": "Outdoors",
@@ -110,6 +110,7 @@
             "outside6-title": "Outdoors",
             "outside7-title": "Outdoors",
             "outside8-title": "Outdoors",
+            "outside9-title": "Outdoors",
             "bathroom1-title": "Bathroom",
             "kitchen1-title": "Kitchen",
             "livingroom1-title": "Living room",
@@ -128,11 +129,11 @@
             "kitchen2-title": "Kitchen",
             "kitchen3-title": "Kitchen",
             "kitchen4-title": "Kitchen",
-            "bedroom7-title": "Bedroom",
-            "bedroom8-title": "Bedroom",
-            "bedroom10-title": "Bedroom",
-            "bedroom11-title": "Bedroom",
-            "bedroom12-title": "Bedroom"
+            "bedroom7-title": "Bedroom 5",
+            "bedroom8-title": "Bedroom 1",
+            "bedroom10-title": "Bedroom 2",
+            "bedroom11-title": "Bedroom 3",
+            "bedroom12-title": "Bedroom 4"
         }
     },
 

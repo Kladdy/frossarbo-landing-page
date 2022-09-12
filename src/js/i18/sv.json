@@ -96,11 +96,11 @@
             "outside-description": "Precis utanför byggnaden finns en veranda och en uteplats. På baksidan av byggnaden finns en grillplats. Den levande skogen som omger byggnaden är ett perfekt ställe att ta en promenad och njuta av naturen."
         },
         "images": {
-            "bedroom1-title": "Sovrum",
-            "bedroom2-title": "Sovrum",
+            "bedroom1-title": "Sovrum 2",
+            "bedroom2-title": "Sovrum 4",
             "bedroom3-title": "Sovrum",
             "bedroom4-title": "Sovrum",
-            "bedroom5-title": "Sovrum",
+            "bedroom5-title": "Sovrum 3",
             "bedroom6-title": "Sovrum",
             "outside1-title": "Utomhus",
             "outside2-title": "Utomhus",
@@ -110,6 +110,7 @@
             "outside6-title": "Utomhus",
             "outside7-title": "Utomhus",
             "outside8-title": "Utomhus",
+            "outside9-title": "Utomhus",
             "bathroom1-title": "Badrum",
             "kitchen1-title": "Kök",
             "livingroom1-title": "Vardagsrum",
@@ -128,11 +129,11 @@
             "kitchen2-title": "Kök",
             "kitchen3-title": "Kök",
             "kitchen4-title": "Kök",
-            "bedroom7-title": "Sovrum",
-            "bedroom8-title": "Sovrum",
-            "bedroom10-title": "Sovrum",
-            "bedroom11-title": "Sovrum",
-            "bedroom12-title": "Sovrum"
+            "bedroom7-title": "Sovrum 5",
+            "bedroom8-title": "Sovrum 1",
+            "bedroom10-title": "Sovrum 2",
+            "bedroom11-title": "Sovrum 3",
+            "bedroom12-title": "Sovrum 4"
         }
     },
 
