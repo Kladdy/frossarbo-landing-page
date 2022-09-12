@@ -20274,3 +20274,7 @@ section {
     border-right: 0.0625rem solid #e0e5ec;
   }
 }
+.text-black-outline {
+  color: white;
+  text-shadow: 0 0 0.5rem #000 !important;
+}
