@@ -15,7 +15,8 @@
         "frossarbo17": "Frossarbo 17",
         "frossarbo19": "Frossarbo 19",
         "vision": "Vår vision",
-        "contact": "Kontakta oss"
+        "contact": "Kontakta oss",
+        "aboutus": "Om oss"
     },
 
     "faq": {
@@ -176,6 +177,14 @@
         "close": "Stäng",
         "availible_in_swedish": "",
         "text": "Hej"
+    },
+
+    "aboutus": {
+        "title": "Om oss",
+        "text1": "Verksamheten i Frossarbo Ängar bedrivs av det svenska aktiebolaget Frossarbo&nbsp;Ängar&nbsp;AB (556598-1940). Bolaget är inte redovisningsskyldigt för mervärdesskatt. Bolaget är innehavare av F-skattsedel och registrerad arbetsgivare.",
+        "text2": "Bolaget ägs av familjen Pia Wikström och Michael Niklasson med 50% vardera, vilka också är stadigvarande bosatta i mangårdsbyggnaden Frossarbo 21 alldeles intill Frossarbo 17 och Frossarbo 19.",
+        "text3": "Vår affärsidé är att erbjuda kvalitativa bostäder för kortare och längre perioder i en behaglig, avskild, naturnära och vilsam miljö med högsta möjliga personliga 24h service. När man arbetar hårt och mycket, behövs goda förutsättningar för avskildhet och vila utan att man störs av arga grannar, trafik och ljud. Vår prioriterade målgrupp är arbetskraft även om vi givetvis tar emot familjer och andra grupper också. Vi erbjuder goda faciliteter för utomhusaktiviteter såsom grillning, sköna skogspromenader och möjligheter till både bär- och svampplockning men också fiske.",
+        "text4": "Våra bostäder förvaltas av Pia Wikström som dagligen finns på plats."
     }
 }
     

@@ -15,7 +15,8 @@
         "frossarbo17": "Frossarbo 17",
         "frossarbo19": "Frossarbo 19",
         "vision": "Our vision",
-        "contact": "Contact us"
+        "contact": "Contact us",
+        "aboutus": "About us"
     },
 
     "faq": {
@@ -175,6 +176,14 @@
         "close": "Close",
         "availible_in_swedish": "This text is only availible in Swedish.",
         "text": "Hej"
+    },
+
+    "aboutus": {
+        "title": "About us",
+        "text1": "The operations in Frossarbo Ängar are conducted by the Swedish limited company Frossarbo&nbsp;Ängar&nbsp;AB (556598-1940). The company is not liable for VAT. The company is the holder of an F-tax certificate and a registered employer.",
+        "text2": "The company is owned by the family Pia Wikström and Michael Niklasson with 50% each, who also permanently reside in the manor building Frossarbo 21 right next to Frossarbo 17 and Frossarbo 19.",
+        "text3": "Our business concept is to offer quality housing for shorter and longer periods in a pleasant, secluded, close to nature and restful environment with the highest possible personal 24-hour service. When you work hard and a lot, you need good conditions for privacy and rest without being disturbed by angry neighbors, traffic and noise. Our priority target group is the workforce, although we of course accept families and other groups as well. We offer good facilities for outdoor activities such as barbecuing, pleasant forest walks and opportunities for both berry and mushroom picking, but also fishing.",
+        "text4": "Our houses are managed by Pia Wikström, who is on site every day."
     }
 }
     
