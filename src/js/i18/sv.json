@@ -160,6 +160,22 @@
             "name": "Bogdan",
             "text": "\"Värdarna Pia och Michael var mycket välkomnande och stödjande med våra små förfrågningar. De var också mycket hjälpsamma med information om de aktiviteter och platser vi ville besöka. Platsen är stor och rymmer lätt stora grupper. Det ligger nära skogen där du kan hitta fin natur på kort gångavstånd och massor av bär på sommaren.\""
         }
+    },
+
+    "integritypolicy": {
+        "title": "Integritetspolicy",
+        "close": "Stäng",
+        "availible_in_swedish": "",
+        "text": ""
+        
+    },
+
+    "gdpr": {
+        "title": "GDPR",
+        "longtitle": "Personuppgiftslagen och GDPR",
+        "close": "Stäng",
+        "availible_in_swedish": "",
+        "text": "Hej"
     }
 }
     

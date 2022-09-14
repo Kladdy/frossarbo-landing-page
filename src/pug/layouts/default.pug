@@ -1,5 +1,41 @@
 doctype html
 
+//- Modal from https://stackoverflow.com/questions/68794811/modal-dialog-not-showing-pug
+//- To convert text to pug text, use this site and replace new line with #[br]
+//- https://www.gillmeister-software.com/online-tools/text/remove-line-breaks.aspx
+// Modal for GDPR
+#GDPRModal.modal.fade(tabindex='-1' role='dialog' aria-labelledby='GDPR Modal' aria-hidden='true')
+    .modal-dialog(role='document')
+        .modal-content
+            .modal-header
+                h5#GDPRModal.modal-title
+                    .i18nelement(data-i18n='gdpr.longtitle')
+                button.btn-close(type='button' data-bs-dismiss='modal' aria-label='Stäng')
+            .modal-body
+                p.i18nelement(data-i18n='gdpr.availible_in_swedish')
+                p.
+                    #[b Information gällande Personuppgiftslagen och GDPR]#[br]#[br]Från och med 1 oktober 2001 började personuppgiftslagen (PuL) att gälla i Sverige. PuL har sin grund i ett EU-direktiv som syftar till att skydda privatpersoner mot att deras personliga integritet kränks när personuppgifter behandlas. En viktig del i integritetsskyddet är, att den som uppgiften gäller informeras om hur uppgifterna behandlas.#[br]#[br]Frossarbo Ängar AB vill därför informera dig om hur vi behandlar de personuppgifter du lämnar till oss, vilka rättigheter du har enligt personuppgiftslagen och för vilka ändamål behandlingen sker.#[br]#[br]Om du vill ha information om vilka personuppgifter, om dig som behandlas av Frossarbo Ängar AB, kan du skriftligen begära detta av oss.#[br]#[br]Hit vänder du dig även om någon personuppgift är felaktig eller ofullständig.#[br]#[br]#[b Dina rättigheter över dina personuppgifter]#[br]Den 25 maj 2018 träder nya EU-regler om skydd vid behandling av personuppgifter i kraft. GDPR innehåller bland annat regler med grundläggande principer för behandling av personuppgifter och anger förutsättningar för att behandlingar av dessa ska vara lagliga. Den innehåller också regler om rättigheter till information och tillgång till personuppgifter, regler om rättelse av felaktiga personuppgifter samt möjligheter att i vissa fall begränsa behandling av personuppgifter.#[br]#[br]Villkor som gäller från 1 maj#[br]#[br]#[b Dina rättigheter som kund stärks]#[br]Ett viktigt led i det förbättrade skyddet för enskilda är att det ställs högre krav på personuppgiftsansvariga, det vill säga alla företag och organisationer som behandlar personuppgifter, när det gäller information till kunder. En övergripande beskrivning om hur vi behandlar dina personuppgifter kan du få hos oss.#[br]#[br]Dataskyddsförordningen, på engelska kallad General Data Protection Regulation (GDPR), gäller som lag inom EUs alla medlemsländer och syftar till att förbättra skyddet för den enskilda individen vid behandling av personuppgifter. Denna förordning och en kompletterande svensk lag, Dataskyddslagen, ersätter i Sverige personuppgiftslagen (PuL).#[br]#[br]#[b Information om behandling av personuppgifter]#[br]Frossarbo Ängar AB kommer att komplettera informationen om behandling av personuppgifter som finns i eller i anslutning till ansökningar, avtal och villkor för våra tjänster.#[br]#[br]Dina rättigheter enligt den nya dataskyddsförordningen#[br]#[br]#[b Registerutdrag]#[br]Du har på samma sätt som tidigare rätt att få information om vilka personuppgifter som vi behandlar om dig.#[br]#[br]En nyhet är att en begäran om sådan information inte bara kan göras skriftligen med vanligt brev utan även kan göras på annat sätt, exempelvis elektroniskt. En förutsättning för att du ska få registerutdrag är att vi kan identifiera dig på ett säkert sätt så att obehöriga inte ges möjlighet att ta del av dina uppgifter.#[br]#[br]#[b Dataportabilitet]#[br]Du har rätt att få ut en elektronisk kopia av dina personuppgifter som du själv har tillhandahållit oss och som vi behandlar elektroniskt.#[br]#[br]Du har rätt att överföra dessa uppgifter till en annan personuppgiftsansvarig, när det är tekniskt möjligt.#[br]#[br]#[b Rätt till rättning]#[br]Du har rätt att få felaktiga personuppgifter om dig själv rättade med stöd av dataskyddsförordningen. Du kan även få personuppgifter kompletterade om de är ofullständiga.#[br]#[br]#[b Rätten att bli raderad]#[br]Som kund har du rätten att under vissa förutsättningar få dina personuppgifter raderade när de inte längre är nödvändiga för det ändamål för vilka de samlats in.#[br]#[br]#[b Direktreklamspärr]#[br]Du kan även i fortsättningen anmäla om du inte vill få direkt marknadsföring från oss.#[br]#[br]Kontakta oss för att få mer information.
+            .modal-footer
+                button.btn.btn-secondary(type='button' data-bs-dismiss='modal')
+                    p.i18nelement(data-i18n='gdpr.close')
+
+// Modal for Integrity
+#IntegrityModal.modal.fade(tabindex='-1' role='dialog' aria-labelledby='Integrity Modal' aria-hidden='true')
+    .modal-dialog(role='document')
+        .modal-content
+            .modal-header
+                h5#IntegrityModal.modal-title
+                    .i18nelement(data-i18n='integritypolicy.title')
+                button.btn-close(type='button' data-bs-dismiss='modal' aria-label='Stäng')
+            .modal-body
+                p.i18nelement(data-i18n='integritypolicy.availible_in_swedish')
+                p.
+                    #[b Vilka vi är]#[br]Vår webbplatsadress är #[a(href="https://frossarbo.com") https://frossarbo.com].#[br]#[br]#[b Vilka personuppgifter vi samlar in och varför vi samlar in dem]#[br]Vi samlar inte medvetet in andra uppgifter än namn, personuppgifter, faktureringsadress, e-mailadress och telefonnummer. Dessa uppgifter sparas och används uteslutande för att hantera (upprätta avtal, fakturera, redovisa m.m.) de avtal vi ingår med våra hyresgäster. Inga insamlade uppgifter sprids på något sätt till tredje man och vi upprättar inga andra register än de som må följa med mjukvaran i vårt IT stöd och det kundregister vi använder för internt bruk i ovannämnda sammanhang. Vi kan inte utesluta att vi kan komma att använda insamlad information för direktmarknadsföring till tidigare kunder, vilket inte sker om kunden avböjt sådan marknadsföring.#[br]#[br]#[b Inbäddad innehåll från andra webbplatser]#[br]Artiklar på denna webbplats kan innehålla inbäddat innehåll (exempelvis videoklipp, bilder, artiklar o.s.v.). Inbäddat innehåll från andra webbplatser beter sig precis på samma sätt som om besökaren har besökt den andra webbplatsen.#[br]#[br]Dessa webbplatser kan samla in uppgifter om dig, använda cookie-filer, bädda in ytterligare spårning från tredje part och övervaka din interaktion med sagda inbäddade innehåll, inklusive spårning av din interaktion med detta inbäddade innehåll om du har ett konto och är inloggad på webbplatsen i fråga.#[br]#[br]#[b Vilka rättigheter du har över dina data]#[br]Om du har kontaktat oss och givit oss data kan du begära en exportfil med de personuppgifter vi har om dig, inklusive alla uppgifter du har gett oss. Du kan också begära att vi tar bort alla personuppgifter vi har om dig. Detta omfattar inte eventuella uppgifter som vi är tvungna att spara av administrativa, legala eller säkerhetsändamål.
+            .modal-footer
+                button.btn.btn-secondary(type='button' data-bs-dismiss='modal')
+                    .i18nelement(data-i18n='integritypolicy.close')
+
+
 //- Default layout configuration fallback
 block config
     - var pageTitle = "No Page Title Set"

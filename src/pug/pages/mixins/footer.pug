@@ -6,6 +6,21 @@ mixin footer(options)
             block
         else
             .container.px-5
+                .row
+                    .col-lg-6.h-100.text-center.text-lg-start.my-auto
+                        ul.list-inline.mb-2
+                            li.list-inline-item
+                                a.consulting-links(href='contact.html')
+                                    .i18nelement(data-i18n='pages.contact')
+                            li.list-inline-item ⋅
+                            li.list-inline-item
+                                a.consulting-links(data-target='#IntegrityModal' data-toggle='modal' href='#Integrity' data-bs-toggle='modal' data-bs-target='#IntegrityModal') 
+                                    .i18nelement(data-i18n='integritypolicy.title')
+                            li.list-inline-item ⋅
+                            li.list-inline-item
+                                a.consulting-links(data-target='#GDPRModal' data-toggle='modal' href='#GDPR' data-bs-toggle='modal' data-bs-target='#GDPRModal')
+                                    .i18nelement(data-i18n='gdpr.title')
+
                 //- .row.gx-5
                     .col-lg-3
                         .footer-brand

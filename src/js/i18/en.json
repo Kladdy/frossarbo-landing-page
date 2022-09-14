@@ -160,6 +160,21 @@
             "name": "Bogdan",
             "text": "\"The hosts Pia & Michael were very welcoming and supportive with our small requests. They also been very helpful with info about the activities and places we wanted to visit. The place is big and can accommodate large groups easily. It's situated near the forest where you can find nice scenery at a short walk distance and lots of berries in the summer.\""
         }
+    },
+
+    "integritypolicy": {
+        "title": "Integrity policy",
+        "close": "Close",
+        "availible_in_swedish": "This text is only availible in Swedish.",
+        "text": "Hej"
+    },
+
+    "gdpr": {
+        "title": "GDPR",
+        "longtitle": "The the Personal Data Act and GDPR",
+        "close": "Close",
+        "availible_in_swedish": "This text is only availible in Swedish.",
+        "text": "Hej"
     }
 }
     
