@@ -1,0 +1,87 @@
+extends ../layouts/default.pug
+
+block config
+
+    //- Global Page Configuration
+    - var pageTitle = 'About us'
+
+block content
+
+    //- * * * * * * * *
+    //- * * Navbar  * *
+    //- * * * * * * * *
+
+    include mixins/navbar.pug
+    +navbar({
+        navbarBg: 'bg-white',
+        navbarStyle: 'navbar-light',
+        navbarBrandColor: 'text-dark',
+        navbarBtnColor: 'btn-primary',
+        navbarContainer: 'container px-5',
+    })
+
+    //- * * * * * * * * * *
+    //- * * Page Header * *
+    //- * * * * * * * * * *
+
+    include mixins/header.pug
+    +header({
+        pageHeaderBg: 'bg-img-cover',
+        pageHeaderBgImg: 'background-image: url("assets/img/frossarbo17/outside3.jpg")',
+        pageHeaderStyle: 'page-header-ui-light',
+        svgBorderAngled: false,
+        svgBorderRounded: true,
+        svgBorderWaves: false,
+        svgBorderFill: 'text-white'
+    })
+
+        .page-header-ui-content.py-5.position-relative
+            .container.px-5
+                .row.gx-5.justify-content-center
+                    .col-xl-8.col-lg-10.text-center
+                        h1.page-header-ui-title.text-white.text-black-outline.i18nelement(data-i18n='aboutus.title')
+                        
+
+
+    include mixins/section.pug
+    +section({
+        sectionBg: 'bg-white',
+        sectionPadding: 'py-10',
+        svgBorderAngled: false,
+        svgBorderRounded: false,
+        svgBorderWaves: false,
+        svgBorderFill: ''
+    })
+
+        // People
+        section.testimonials.text-center
+            .container.px-5
+                .row.gx-5.justify-content-center.pb-5
+                    .col-xl-8.col-lg-10.text-center
+                        p.pb-2.page-header-ui-text.mb-5.i18nelement(data-i18n='aboutus.text1')
+                        p.pb-2.page-header-ui-text.mb-5.i18nelement(data-i18n='aboutus.text2')
+                        p.pb-2.page-header-ui-text.mb-5.i18nelement(data-i18n='aboutus.text3')
+                        p.pb-2.page-header-ui-text.mb-5.i18nelement(data-i18n='aboutus.text4')
+            //- div.container
+            //-     img.img-fluid.rounded-circle.mb-3(src='assets/img/people/pia.jpg', width=200, alt='Pia Wikström')
+            //-     p.font-weight-light.mb-3.pb-3 
+            //-         b Pia Wikström
+            //-         br
+            //-         i.bi-telephone.m-auto.text-primary-mr-2
+            //-         | +46 76 140 44 70
+            //-         br
+            //-         i.bi-envelope.m-auto.text-primary-mr-2
+            //-         a(href='mailto:pia@frossarbo.com') pia@frossarbo.com
+            //-         br
+            //-         i.bi-geo-alt.m-auto.text-primary-mr-2
+            //-         span.i18nelement(data-i18n='contact.address')
+              
+    hr.my-0
+
+block footer
+
+    include mixins/footer.pug
+    +footer({
+        footerBg: 'bg-white',
+        footerStyle: 'footer-light'
+    })

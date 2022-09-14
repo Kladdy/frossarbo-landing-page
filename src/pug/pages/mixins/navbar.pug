@@ -7,12 +7,13 @@ mixin navbar(options)
         .quick .toggle-group { transition: none; -webkit-transition: none; }
 
 
-    nav.navbar.navbar-marketing.navbar-expand-lg(class=options.navbarBg, class=options.navbarStyle, class=options.navbarPosition)
+    nav.navbar.navbar-marketing.navbar-expand-xl(class=options.navbarBg, class=options.navbarStyle, class=options.navbarPosition)
         div(class=options.navbarContainer)
             a.navbar-brand(href='index.html', class=options.navbarBrandColor)
                 img.h-100(src='assets/img/logo/Logga-no_bg-1000-trimmed.png' width="150" alt='Frossarbo Ängar')
             button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
                 i(data-feather='menu')
+            
             #navbarSupportedContent.collapse.navbar-collapse
                 ul.navbar-nav.ms-auto.me-lg-5
                     li.nav-item
@@ -28,13 +29,16 @@ mixin navbar(options)
                     //-     a.nav-link(href='vision.html')
                     //-         .i18nelement(data-i18n='pages.vision')
                     li.nav-item
+                        a.nav-link(href='aboutus.html')
+                            .i18nelement(data-i18n='pages.aboutus')
+                    li.nav-item
                         a.nav-link(href='contact.html')
                             .i18nelement(data-i18n='pages.contact')
         
                         
                
-            div.btn.btn-lg.d-none.d-lg-block
+            div.btn.btn-lg.d-none.d-xl-block
                 input(id="language-toggle-event" type="checkbox" checked data-toggle="toggle" data-on="<div><span class='fa-2xl flag-icon flag-icon-gb p-2'></span>In&nbsp;English</div>" data-off="<div><span class='fa-2xl flag-icon flag-icon-se p-2'></span>På&nbsp;svenska</div>" data-onstyle="none" data-offstyle="none" data-size="normal" data-style="quick")
 
-    div.bg-white.d-flex.justify-content-center.d-lg-none
+    div.bg-white.d-flex.justify-content-center.d-xl-none
         input(id="language-toggle-event-non-navbar" type="checkbox" checked data-toggle="toggle" data-on="<div><span class='fa-2xl flag-icon flag-icon-gb p-2'></span>In&nbsp;English</div>" data-off="<div><span class='fa-2xl flag-icon flag-icon-se p-2'></span>På&nbsp;svenska</div>" data-onstyle="none" data-offstyle="none" data-size="normal" data-style="quick")

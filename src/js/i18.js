@@ -35,6 +35,9 @@ function initToggle() {
     if (document.title == "Contact us | Frossarbo Ängar") {
       document.title = "Kontakta oss | Frossarbo Ängar"
     }
+    if (document.title == "About us | Frossarbo Ängar") {
+      document.title = "Om oss | Frossarbo Ängar"
+    }
   }
   console.log("2: Toggle checked:", $('#language-toggle-event').prop('checked'))
   console.log("2: Toggle checked non-navbar:", $('#language-toggle-event-non-navbar').prop('checked'))
