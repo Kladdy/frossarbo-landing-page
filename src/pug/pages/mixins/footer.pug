@@ -11,7 +11,7 @@ mixin footer(options)
             // Modal for GDPR
             #GDPRModal.modal.fade(tabindex='-1' role='dialog' aria-labelledby='GDPR Modal' aria-hidden='true')
                 .modal-dialog(role='document')
-                    .modal-content
+                    .modal-content.text-dark
                         .modal-header
                             h5#GDPRModal.modal-title
                                 .i18nelement(data-i18n='gdpr.longtitle')
@@ -27,7 +27,7 @@ mixin footer(options)
             // Modal for Integrity
             #IntegrityModal.modal.fade(tabindex='-1' role='dialog' aria-labelledby='Integrity Modal' aria-hidden='true')
                 .modal-dialog(role='document')
-                    .modal-content
+                    .modal-content.text-dark
                         .modal-header
                             h5#IntegrityModal.modal-title
                                 .i18nelement(data-i18n='integritypolicy.title')
