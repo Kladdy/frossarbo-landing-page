@@ -29,7 +29,7 @@
     },
 
     "index": {
-        "subtitle": "Frossarbo Ängar är en idyllisk plats belägen utanför Uppsala. Med den omgivande skogen och vackra naturen är Frossarbo Ängar den perfekta platsen för avkoppling. Vi har två hus som vi hyr ut, och vi kan ta emot allt från en liten familj till en stor arbetargrupp.",
+        "subtitle": "Frossarbo Ängar är en idyllisk plats belägen utanför Uppsala. Med den omgivande skogen och vackra naturen är Frossarbo Ängar den perfekta platsen för avkoppling. Vi har två hus som vi hyr ut företrädesvis till företag och deras medarbetare, men också till familjer och vänner som reser tillsammans. Vi hyr oftast ut på månadsbasis, men ibland har vi perioder av kortare uthyrningar.",
         "cards": {
             "read-more": "Läs mer"
         }
@@ -43,15 +43,15 @@
         "readytobook-description": "Vänligen kontakta oss för tillgänglighet och priser. Vi ser fram emot att du hör av dig!",
         "metadata": {
             "beds-title": "10 sängar",
-            "beds-description": "Med 10 sängar i 5 sovrum på 3 olika våningar kommer ni att ha gott om plats. Ytterligare 2 sängar kan läggas till, vilket gör att upp till 12 personer bekvämt kan få plats i byggnaden.",
+            "beds-description": "Med 10 sängar i 5 sovrum på 2 olika våningar kommer ni att ha gott om plats.",
             "shower_and_wash-title": "Duschar och tvättmaskiner",
-            "shower_and_wash-description": "Badrum med duschar finns på 3 ställen i byggnaden. Två tvättmaskiner och en torktumlare finns tillgängliga, samt ett torkskåp. Ett tvättställ finns i tvättstugan.",
+            "shower_and_wash-description": "Badrum med duschar finns på 3 ställen i huset. Två tvättmaskiner och en torktumlare finns tillgängliga, samt ett torkskåp. Ett tvättställ finns i tvättstugan.",
             "kitchen-title": "Kök",
-            "kitchen-description": "Ett fullt utrustat kök finns på första våningen i byggnaden. I köket finns diskmaskin, mikrovågsugn, kaffebryggare, vattenkokare, kyl och frys.",
+            "kitchen-description": "Ett fullt utrustat kök finns på första våningen i huset. I köket finns diskmaskin, mikrovågsugn, kaffebryggare, vattenkokare, kyl och frys.",
             "living_room-title": "Vardagsrum",
-            "living_room-description": "Vardagsrummet finns på första våningen i byggnaden. Här finns en soffa och en TV med Chromecast, där ni kan koppla av efter en lång dag. En matplats finns i vardagsrummet.",
+            "living_room-description": "Vardagsrummet finns på första våningen i huset. Här finns en soffa och en TV med Chromecast, där ni kan koppla av efter en lång dag. En matplats finns i vardagsrummet.",
             "outside-title": "Nära till naturen",
-            "outside-description": "Precis utanför byggnaden finns en veranda och en uteplats. På baksidan av byggnaden finns en grillplats. Den levande skogen som omger byggnaden är ett perfekt ställe att ta en promenad och njuta av naturen."
+            "outside-description": "Precis utanför huset finns en veranda och två grupper med utemöbler och grill. På baksidan av huset finns en eldplats. Den levande skogen som omger huset är ett perfekt ställe att ta en promenad och njuta av naturen."
         },
         "images": {
             "bedroom1-title": "Sovrum 1",
@@ -71,7 +71,7 @@
             "kitchen4-title": "Kök",
             "livingroom1-title": "Vardagsrum",
             "livingroom2-title": "Vardagsrum",
-            "livingroom3-title": "Vardagsrum",
+            "livingroom3-title": "Fotölj i övre hallen",
             "livingroom6-title": "Vardagsrum",
             "basement4-title": "Källare med tvättmaskiner och torktumlare"
         }
@@ -85,15 +85,15 @@
         "readytobook-description": "Vänligen kontakta oss för tillgänglighet och priser. Vi ser fram emot att du hör av dig!",
         "metadata": {
             "beds-title": "8 sängar",
-            "beds-description": "Med 8 sängar i 6 sovrum på 3 olika våningar kommer ni att ha gott om plats. Ytterligare 2 sängar kan läggas till, vilket gör att upp till 10 personer bekvämt kan få plats i byggnaden.",
+            "beds-description": "Med 8 sängar i 5 sovrum på 3 olika våningar kommer ni att ha gott om plats.",
             "shower_and_wash-title": "Duschar och tvättmaskiner",
-            "shower_and_wash-description": "Badrum finns på 2 ställen i byggnaden, med ett duschrum i källaren. En tvättmaskin och en torktumlare finns tillgängliga. Ett tvättställ finns i tvättstugan.",
+            "shower_and_wash-description": "Badrum finns på 2 ställen i huset, med ett duschrum i källaren. En tvättmaskin och en torktumlare finns tillgängliga. Ett tvättställ finns i tvättstugan.",
             "kitchen-title": "Kök",
-            "kitchen-description": "Ett fullt utrustat kök finns på första våningen i byggnaden. I köket finns diskmaskin, mikrovågsugn, kaffebryggare, vattenkokare, kyl och frys.",
+            "kitchen-description": "Ett fullt utrustat kök finns på första våningen i huset. I köket finns diskmaskin, mikrovågsugn, kaffebryggare, vattenkokare, kyl och frys.",
             "living_room-title": "Vardagsrum",
-            "living_room-description": "Vardagsrummet finns på första våningen i byggnaden. Här finns en soffa och en TV med Chromecast, där ni kan koppla av efter en lång dag. En matplats finns i vardagsrummet.",
+            "living_room-description": "Vardagsrummet finns på första våningen i huset. Här finns en soffa och en TV med Chromecast, där ni kan koppla av efter en lång dag. En matplats finns i vardagsrummet.",
             "outside-title": "Nära till naturen",
-            "outside-description": "Precis utanför byggnaden finns en veranda och en uteplats. På baksidan av byggnaden finns en grillplats. Den levande skogen som omger byggnaden är ett perfekt ställe att ta en promenad och njuta av naturen."
+            "outside-description": "Precis utanför huset finns en veranda och två grupper med utemöbler och grill. På baksidan av huset finns en eldplats. Den levande skogen som omger huset är ett perfekt ställe att ta en promenad och njuta av naturen."
         },
         "images": {
             "bedroom1-title": "Sovrum 2",
@@ -160,6 +160,22 @@
             "name": "Bogdan",
             "text": "\"Värdarna Pia och Michael var mycket välkomnande och stödjande med våra små förfrågningar. De var också mycket hjälpsamma med information om de aktiviteter och platser vi ville besöka. Platsen är stor och rymmer lätt stora grupper. Det ligger nära skogen där du kan hitta fin natur på kort gångavstånd och massor av bär på sommaren.\""
         }
+    },
+
+    "integritypolicy": {
+        "title": "Integritetspolicy",
+        "close": "Stäng",
+        "availible_in_swedish": "",
+        "text": ""
+        
+    },
+
+    "gdpr": {
+        "title": "GDPR",
+        "longtitle": "Personuppgiftslagen och GDPR",
+        "close": "Stäng",
+        "availible_in_swedish": "",
+        "text": "Hej"
     }
 }
     

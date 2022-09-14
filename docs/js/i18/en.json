@@ -29,7 +29,7 @@
     },
 
     "index": {
-        "subtitle": "Frossarbo Ängar is an idyllic place located outside of Uppsala, Sweden. With the surrounding forest and beautiful nature, Frossarbo Ängar is the perfect place for relaxing. We have two houses for rent, and we can accomodate everything from a small family to a large workforce.",
+        "subtitle": "Frossarbo Ängar is an idyllic place located outside of Uppsala, Sweden. With the surrounding forest and beautiful nature, Frossarbo Ängar is the perfect place for relaxing. We have two houses that we rent out, primarily to companies and their workforces, but also to families and friends who travel together. We usually rent on a monthly basis, but sometimes we have periods of shorter rental times.",
         "cards": {
             "read-more": "Read more"
         }
@@ -43,15 +43,15 @@
         "readytobook-description": "Please contact us for availibility and pricing. We are looking forward to hearing from you!",
         "metadata": {
             "beds-title": "10 beds",
-            "beds-description": "With 10 beds in 5 bedrooms on 3 different floors, you will have a perfect place to stay with plenty of space. An additional 2 beds can be added, allowing for 12 people to stay comfortably.",
+            "beds-description": "With 10 beds in 5 bedrooms on 2 different floors, you will have a perfect place to stay with plenty of space.",
             "shower_and_wash-title": "Showers and washing machines",
-            "shower_and_wash-description": "Bathrooms with showers are located at 3 places in the building. Two washing machines and a dryer are availible, as well a drying cabinet. A sink is located in the washing machine room.",
+            "shower_and_wash-description": "Bathrooms with showers are located at 3 places in the house. Two washing machines and a dryer are availible, as well a drying cabinet. A sink is located in the washing machine room.",
             "kitchen-title": "Kitchen",
-            "kitchen-description": "A fully equipped kitchen is located in the first floor of the building. The kitchen houses a dishwasher, microwave, coffee maker, water kettle, fridge and freezer.",
+            "kitchen-description": "A fully equipped kitchen is located in the first floor of the house. The kitchen houses a dishwasher, microwave, coffee maker, water kettle, fridge and freezer.",
             "living_room-title": "Living room",
-            "living_room-description": "The living room is located in the first floor of the building. In here you will find a sofa and a TV with Chromecast, allowing you to relax. A dining table is located in the living room.",
+            "living_room-description": "The living room is located in the first floor of the house. In here you will find a sofa and a TV with Chromecast, allowing you to relax. A dining table is located in the living room.",
             "outside-title": "Vicinity to nature",
-            "outside-description": "Right outside of the building you will find a veranda and patio. On the back side of the building, a fireplace is located. The vivid forest surrounding the building is a great place to take a walk and enjoy nature."
+            "outside-description": "Right outside of the house you will find a veranda and two patios with accompanying grills. On the back side of the house, a fireplace is located. The vivid forest surrounding the house is a great place to take a walk and enjoy nature."
         },
         "images": {
             "bedroom1-title": "Bedroom 1",
@@ -71,7 +71,7 @@
             "kitchen4-title": "Kitchen",
             "livingroom1-title": "Living room",
             "livingroom2-title": "Living room",
-            "livingroom3-title": "Living room",
+            "livingroom3-title": "Armchair in upper hallway",
             "livingroom6-title": "Living room",
             "basement4-title": "Basement with washing machine and dryer"
         }
@@ -85,15 +85,15 @@
         "readytobook-description": "Please contact us for availibility and pricing. We are looking forward to hearing from you!",
         "metadata": {
             "beds-title": "8 beds",
-            "beds-description": "With 8 beds in 6 bedrooms on 3 different floors, you will have a perfect place to stay with plenty of space. An additional 2 beds can be added, allowing for 10 people to stay comfortably.",
+            "beds-description": "With 8 beds in 5 bedrooms on 3 different floors, you will have a perfect place to stay with plenty of space.",
             "shower_and_wash-title": "Showers and washing machines",
-            "shower_and_wash-description": "Bathrooms are located at 2 places in the building, with a shower room in the basement. A washing machine and a dryer are availible. A sink is located in the washing machine room.",
+            "shower_and_wash-description": "Bathrooms are located at 2 places in the house, with a shower room in the basement. A washing machine and a dryer are availible. A sink is located in the washing machine room.",
             "kitchen-title": "Kitchen",
-            "kitchen-description": "A fully equipped kitchen is located in the first floor of the building. The kitchen houses a dishwasher, microwave, coffee maker, water kettle, fridge and freezer.",
+            "kitchen-description": "A fully equipped kitchen is located in the first floor of the house. The kitchen houses a dishwasher, microwave, coffee maker, water kettle, fridge and freezer.",
             "living_room-title": "Living room",
-            "living_room-description": "The living room is located in the first floor of the building. In here you will find a sofa and a TV with Chromecast, allowing you to relax. A dining table is located in the living room.",
+            "living_room-description": "The living room is located in the first floor of the house. In here you will find a sofa and a TV with Chromecast, allowing you to relax. A dining table is located in the living room.",
             "outside-title": "Vicinity to nature",
-            "outside-description": "Right outside of the building you will find a and patio and a hammock. On the back side of the building, a fireplace is located. The vivid forest surrounding the building is a great place to take a walk and enjoy nature."
+            "outside-description": "Right outside of the house you will find a veranda and two patios with accompanying grills. On the back side of the house, a fireplace is located. The vivid forest surrounding the house is a great place to take a walk and enjoy nature."
         },
         "images": {
             "bedroom1-title": "Bedroom 2",
@@ -160,6 +160,21 @@
             "name": "Bogdan",
             "text": "\"The hosts Pia & Michael were very welcoming and supportive with our small requests. They also been very helpful with info about the activities and places we wanted to visit. The place is big and can accommodate large groups easily. It's situated near the forest where you can find nice scenery at a short walk distance and lots of berries in the summer.\""
         }
+    },
+
+    "integritypolicy": {
+        "title": "Integrity policy",
+        "close": "Close",
+        "availible_in_swedish": "This text is only availible in Swedish.",
+        "text": "Hej"
+    },
+
+    "gdpr": {
+        "title": "GDPR",
+        "longtitle": "The the Personal Data Act and GDPR",
+        "close": "Close",
+        "availible_in_swedish": "This text is only availible in Swedish.",
+        "text": "Hej"
     }
 }
     
